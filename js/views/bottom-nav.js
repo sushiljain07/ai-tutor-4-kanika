@@ -1,7 +1,9 @@
+import { icon } from '../widgets/ui-icons.js';
+
 const ITEMS = [
-  { path: '/home', icon: '🏠', label: 'Home' },
-  { path: '/quick-challenge', icon: '⚡', label: 'Challenge' },
-  { path: '/parent', icon: '👪', label: 'Parent' },
+  { path: '/home', icon: 'home', label: 'Home' },
+  { path: '/quick-challenge', icon: 'bolt', label: 'Challenge' },
+  { path: '/parent', icon: 'parent', label: 'Parent' },
 ];
 
 export function renderBottomNav(container, router) {
@@ -12,7 +14,7 @@ export function renderBottomNav(container, router) {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'bottom-nav-item';
-    button.innerHTML = `<span class="bottom-nav-icon">${item.icon}</span><span>${item.label}</span>`;
+    button.innerHTML = `<span class="bottom-nav-icon">${icon(item.icon, 26)}</span><span>${item.label}</span>`;
     button.addEventListener('click', () => router.navigate(item.path));
     nav.appendChild(button);
     return { button, path: item.path };

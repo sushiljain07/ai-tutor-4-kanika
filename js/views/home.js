@@ -3,6 +3,7 @@ import { LEARNER_NAME } from '../config.js';
 import { deriveTopicStatus } from '../engine/mastery-rules.js';
 import { mascotSVG } from '../widgets/mascot.js';
 import { subjectIconSVG } from '../widgets/subject-icons.js';
+import { icon } from '../widgets/ui-icons.js';
 import { fetchJson } from '../engine/safe-fetch.js';
 import { renderErrorScreen } from '../widgets/error-screen.js';
 
@@ -30,7 +31,7 @@ export async function renderHome(root, { store, router }) {
   header.className = 'app-header';
   header.innerHTML = `
     <div class="app-brand">${mascotSVG(28)} ${LEARNER_NAME}'s Learning Buddy</div>
-    <button type="button" class="icon-link" aria-label="Parent view">👪</button>
+    <button type="button" class="icon-link" aria-label="Parent view">${icon('parent', 22)}</button>
   `;
   header.querySelector('.icon-link').addEventListener('click', () => router.navigate('/parent'));
   root.appendChild(header);
@@ -45,8 +46,8 @@ export async function renderHome(root, { store, router }) {
       </div>
     </div>
     <div class="stat-row">
-      <div class="stat-pill">⭐ <strong>${record.stars}</strong> stars</div>
-      <div class="stat-pill">🔥 <strong>${record.streak.count}</strong> day streak</div>
+      <div class="stat-pill"><span class="icon-gold">${icon('star', 18)}</span> <strong>${record.stars}</strong> stars</div>
+      <div class="stat-pill"><span class="icon-flame">${icon('flame', 18)}</span> <strong>${record.streak.count}</strong> day streak</div>
     </div>
   `;
   root.appendChild(hero);

@@ -5,6 +5,7 @@ import { LEARNER_NAME } from '../config.js';
 import { playCorrectSound } from '../engine/sound.js';
 import { fetchJson } from '../engine/safe-fetch.js';
 import { renderErrorScreen } from '../widgets/error-screen.js';
+import { icon } from '../widgets/ui-icons.js';
 
 const RECENT_IDS_KEY = 'kanika-tutor:quick-challenge:recent-ids';
 
@@ -38,7 +39,7 @@ export async function renderQuickChallenge(root, { store, router }) {
 
   const header = document.createElement('header');
   header.className = 'app-header';
-  header.innerHTML = `<div class="app-brand">⚡ Quick Challenge</div>`;
+  header.innerHTML = `<div class="app-brand">${icon('bolt', 26)} Quick Challenge</div>`;
   root.appendChild(header);
 
   if (openedTopicIds.length === 0) {
@@ -88,7 +89,7 @@ export async function renderQuickChallenge(root, { store, router }) {
       question,
       topicId: question.topicId,
       store,
-      progressLabelText: `⚡ Quick Challenge — question ${index + 1} of ${questions.length}`,
+      progressLabelText: `Quick Challenge — question ${index + 1} of ${questions.length}`,
       onAnswered({ correct, hintLevelUsed }) {
         if (correct && hintLevelUsed === 0) session.correctFirstTry += 1;
       },

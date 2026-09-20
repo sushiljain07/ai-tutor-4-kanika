@@ -76,10 +76,9 @@ body {
   max-width: 760px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 var(--space-2) calc(var(--nav-height) + var(--space-3));
+  padding: var(--space-3) var(--space-2) calc(var(--nav-height) + var(--space-3));
   display: flex;
   flex-direction: column;
-  justify-content: safe center;
 }
 #app-content.route-enter { animation: route-fade-in 0.28s ease; }
 @keyframes route-fade-in {
@@ -101,12 +100,13 @@ p { margin: 0 0 var(--space-2); }
 .app-brand { display: flex; align-items: center; gap: 8px; font-size: var(--font-lg); font-weight: 700; color: var(--color-text); }
 .app-brand .mascot-svg { flex-shrink: 0; }
 .icon-link {
+  display: flex; align-items: center; justify-content: center;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 50%;
   width: var(--tap-min);
   height: var(--tap-min);
-  font-size: 22px;
+  color: var(--color-text);
   box-shadow: var(--shadow-card);
   cursor: pointer;
   flex-shrink: 0;
@@ -115,7 +115,7 @@ p { margin: 0 0 var(--space-2); }
   display: inline-flex; align-items: center; justify-content: center;
   width: 28px; height: 28px; margin-left: 6px; vertical-align: middle;
   background: none; border: none; padding: 0;
-  font-size: 16px; cursor: pointer; border-radius: 50%;
+  color: var(--color-primary); cursor: pointer; border-radius: 50%;
   transition: background 0.12s ease;
 }
 .read-aloud-inline:hover, .read-aloud-inline:active { background: var(--color-border); }
@@ -162,12 +162,16 @@ p { margin: 0 0 var(--space-2); }
 
 .stat-row { display: flex; gap: var(--space-1); margin-top: var(--space-2); flex-wrap: wrap; }
 .stat-pill {
+  display: inline-flex; align-items: center; gap: 6px;
   background: var(--color-surface-alt);
   border-radius: 999px;
   padding: 6px 16px;
   font-size: 15px;
   font-weight: 600;
 }
+.stat-pill svg { flex-shrink: 0; }
+.icon-gold { color: #e6a319; display: inline-flex; }
+.icon-flame { color: #e0663f; display: inline-flex; }
 
 /* Mission card */
 .mission-card {
@@ -218,7 +222,7 @@ p { margin: 0 0 var(--space-2); }
 /* Buttons — "pressable" 3D style: a colored block sitting on a darker
    shadow-shelf, which the button sinks into on press. */
 .button {
-  display: inline-flex; align-items: center; justify-content: center;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   min-height: var(--tap-min); min-width: var(--tap-min);
   padding: var(--space-1) var(--space-3);
   border-radius: var(--radius-sm);
@@ -275,12 +279,13 @@ p { margin: 0 0 var(--space-2); }
   0% { transform: scale(0.9); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
 }
-.star-burst { position: relative; font-size: 22px; display: inline-block; }
+.star-burst { position: relative; display: inline-flex; color: #e6a319; vertical-align: middle; }
 
 .star-burst-wrap { position: absolute; display: inline-block; width: 0; height: 0; }
 .star-burst-particle {
   position: absolute; left: 0; top: 0;
-  font-size: 20px;
+  display: flex;
+  color: #e6a319;
   opacity: 0;
   animation: star-fly 0.7s ease-out forwards;
 }
@@ -505,7 +510,7 @@ input[type="text"], input[type="number"], input[type="password"] {
   padding: var(--space-1);
   flex: 1;
 }
-.bottom-nav-icon { font-size: 22px; }
+.bottom-nav-icon { display: flex; }
 .bottom-nav-item.active { color: var(--color-primary); }
 
 @media (max-width: 480px) {

@@ -5,6 +5,7 @@ import { LEARNER_NAME } from '../config.js';
 import { fetchJson } from '../engine/safe-fetch.js';
 import { renderErrorScreen } from '../widgets/error-screen.js';
 import { lastNDaysStats, summarizeRange } from '../engine/trends.js';
+import { icon } from '../widgets/ui-icons.js';
 
 const DAY_LABELS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
@@ -63,7 +64,7 @@ export async function renderParent(root, { store, router }) {
 
   const header = document.createElement('header');
   header.className = 'app-header';
-  header.innerHTML = `<div class="app-brand">👪 Parent View</div>`;
+  header.innerHTML = `<div class="app-brand">${icon('parent', 26)} Parent View</div>`;
   root.appendChild(header);
 
   if (!record.parentPinHash) {
@@ -231,7 +232,7 @@ export async function renderParent(root, { store, router }) {
     soundButton.type = 'button';
     soundButton.className = 'button secondary';
     const renderSoundLabel = () => {
-      soundButton.textContent = store.isSoundEnabled() ? '🔊 Sound effects: On' : '🔇 Sound effects: Off';
+      soundButton.innerHTML = `${icon('speaker', 18)} Sound effects: ${store.isSoundEnabled() ? 'On' : 'Off'}`;
     };
     renderSoundLabel();
     soundButton.addEventListener('click', () => {

@@ -6,6 +6,7 @@ import { mascotSVG } from '../widgets/mascot.js';
 import { createStarBurst } from '../widgets/star-burst.js';
 import { isReadAloudSupported, speakPassage } from '../voice/read-aloud.js';
 import { playCorrectSound, playIncorrectSound } from '../engine/sound.js';
+import { icon } from '../widgets/ui-icons.js';
 
 export function renderQuestionCard(root, { question, topicId, store, progressLabelText, renderNextAction, onAnswered }) {
   root.innerHTML = '';
@@ -34,7 +35,7 @@ export function renderQuestionCard(root, { question, topicId, store, progressLab
     readAloudButton.type = 'button';
     readAloudButton.className = 'read-aloud-inline';
     readAloudButton.setAttribute('aria-label', 'Read the question aloud');
-    readAloudButton.textContent = '🔊';
+    readAloudButton.innerHTML = icon('speaker', 20);
     readAloudButton.addEventListener('click', () => speakPassage(question.prompt));
     promptText.appendChild(readAloudButton);
   }
@@ -166,7 +167,7 @@ export function renderQuestionCard(root, { question, topicId, store, progressLab
     feedbackArea.innerHTML = '';
     const message = document.createElement('p');
     message.className = 'feedback-success';
-    message.innerHTML = `<span class="star-burst">⭐</span> ${say(`Great job, ${LEARNER_NAME}! Keep it up!`)}`;
+    message.innerHTML = `<span class="star-burst">${icon('star', 22)}</span> ${say(`Great job, ${LEARNER_NAME}! Keep it up!`)}`;
     feedbackArea.appendChild(message);
     createStarBurst(message.querySelector('.star-burst'));
     disableInputs();

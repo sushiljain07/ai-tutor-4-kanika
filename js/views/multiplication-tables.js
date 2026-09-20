@@ -7,6 +7,7 @@ import { renderExplanationBlock } from '../widgets/explanation-block.js';
 import { playCorrectSound } from '../engine/sound.js';
 import { fetchJson } from '../engine/safe-fetch.js';
 import { renderErrorScreen } from '../widgets/error-screen.js';
+import { icon } from '../widgets/ui-icons.js';
 
 function progressKey(number) {
   return `multiplication-tables:${number}`;
@@ -127,7 +128,7 @@ export async function renderMultiplicationTables(root, { store, router, subjectI
     const drillButton = document.createElement('button');
     drillButton.type = 'button';
     drillButton.className = 'button';
-    drillButton.textContent = '📇 Flashcard drill';
+    drillButton.innerHTML = `${icon('cards', 18)} Flashcard drill`;
     drillButton.addEventListener('click', () => renderDrill(table, 0));
     card.appendChild(drillButton);
 
@@ -135,7 +136,7 @@ export async function renderMultiplicationTables(root, { store, router, subjectI
     quizButton.type = 'button';
     quizButton.className = 'button secondary';
     quizButton.style.marginLeft = '8px';
-    quizButton.textContent = '📝 Quiz me';
+    quizButton.innerHTML = `${icon('quiz', 18)} Quiz me`;
     quizButton.addEventListener('click', () => renderQuiz(table, shuffle(table.facts).slice(0, 4), 0));
     card.appendChild(quizButton);
 
@@ -156,7 +157,7 @@ export async function renderMultiplicationTables(root, { store, router, subjectI
     card.className = 'card';
 
     if (index >= table.facts.length) {
-      card.innerHTML = `<p class="feedback-success"><span class="star-burst">🎉</span> ${say(`Amazing work, ${LEARNER_NAME}! You drilled the whole table of ${table.number}!`)}</p>`;
+      card.innerHTML = `<p class="feedback-success"><span class="star-burst">${icon('star', 22)}</span> ${say(`Amazing work, ${LEARNER_NAME}! You drilled the whole table of ${table.number}!`)}</p>`;
       createStarBurst(card.querySelector('.star-burst'));
       if (store.isSoundEnabled()) playCorrectSound();
       const doneButton = document.createElement('button');
@@ -211,7 +212,7 @@ export async function renderMultiplicationTables(root, { store, router, subjectI
       root.innerHTML = '';
       const card = document.createElement('div');
       card.className = 'card';
-      card.innerHTML = `<p class="feedback-success"><span class="star-burst">⭐</span> ${say(`Well done, ${LEARNER_NAME}! Quiz complete for the table of ${table.number}!`)}</p>`;
+      card.innerHTML = `<p class="feedback-success"><span class="star-burst">${icon('star', 22)}</span> ${say(`Well done, ${LEARNER_NAME}! Quiz complete for the table of ${table.number}!`)}</p>`;
       createStarBurst(card.querySelector('.star-burst'));
       if (store.isSoundEnabled()) playCorrectSound();
       const doneButton = document.createElement('button');

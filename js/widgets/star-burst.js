@@ -1,3 +1,5 @@
+import { icon } from './ui-icons.js';
+
 export function createStarBurst(container) {
   const burst = document.createElement('span');
   burst.className = 'star-burst-wrap';
@@ -5,7 +7,7 @@ export function createStarBurst(container) {
   angles.forEach((angle, i) => {
     const star = document.createElement('span');
     star.className = 'star-burst-particle';
-    star.textContent = '⭐';
+    star.innerHTML = icon('star', 18);
     star.style.setProperty('--angle', `${angle}deg`);
     star.style.animationDelay = `${i * 30}ms`;
     burst.appendChild(star);

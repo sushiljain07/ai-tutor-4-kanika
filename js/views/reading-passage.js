@@ -7,6 +7,7 @@ import { renderExplanationBlock } from '../widgets/explanation-block.js';
 import { playCorrectSound, playIncorrectSound } from '../engine/sound.js';
 import { fetchJson } from '../engine/safe-fetch.js';
 import { renderErrorScreen } from '../widgets/error-screen.js';
+import { icon } from '../widgets/ui-icons.js';
 
 export async function renderReadingPassage(root, { store, router, subjectId, topicId }) {
   let topic;
@@ -22,7 +23,7 @@ export async function renderReadingPassage(root, { store, router, subjectId, top
     root.innerHTML = '';
     const header = document.createElement('header');
     header.className = 'app-header';
-    header.innerHTML = `<div class="app-brand">📚 Story Library</div>`;
+    header.innerHTML = `<div class="app-brand">${icon('book', 26)} Story Library</div>`;
     root.appendChild(header);
 
     const intro = document.createElement('div');
@@ -105,7 +106,7 @@ export async function renderReadingPassage(root, { store, router, subjectId, top
       const readAloudButton = document.createElement('button');
       readAloudButton.type = 'button';
       readAloudButton.className = 'button secondary';
-      readAloudButton.textContent = '🔊 Read aloud';
+      readAloudButton.innerHTML = `${icon('speaker', 18)} Read aloud`;
       readAloudButton.addEventListener('click', () => {
         resetWordStyles();
         speakPassage(passage.text, {
@@ -124,7 +125,7 @@ export async function renderReadingPassage(root, { store, router, subjectId, top
       const readSelfButton = document.createElement('button');
       readSelfButton.type = 'button';
       readSelfButton.className = 'button secondary';
-      readSelfButton.textContent = '🎤 Read it yourself';
+      readSelfButton.innerHTML = `${icon('mic', 18)} Read it yourself`;
       readSelfButton.addEventListener('click', () => {
         resetWordStyles();
         readSelfButton.disabled = true;
@@ -132,7 +133,7 @@ export async function renderReadingPassage(root, { store, router, subjectId, top
         const stopButton = document.createElement('button');
         stopButton.type = 'button';
         stopButton.className = 'button';
-        stopButton.textContent = '⏹ Stop & check my reading';
+        stopButton.innerHTML = `${icon('stop', 16)} Stop & check my reading`;
         feedbackArea.appendChild(stopButton);
         const listeningNote = document.createElement('p');
         listeningNote.textContent = say("I'm listening — read at your own pace, then tap Stop when you're done.");
