@@ -1,0 +1,207 @@
+{
+  "id": "place-value",
+  "subjectId": "math",
+  "displayName": "Place Value",
+  "sourceReference": "New Mathematics Today - 3",
+  "visual": "base-ten-blocks",
+  "explanation": {
+    "text": "Every digit in a number has a place \u2014 ones, tens, and hundreds. The place tells us how much the digit is really worth.",
+    "example": "In the number 452, the 4 is in the hundreds place (worth 400), the 5 is in the tens place (worth 50), and the 2 is in the ones place (worth 2)."
+  },
+  "questions": [
+    {
+      "id": "pv-q1",
+      "prompt": "In the number 638, what digit is in the tens place?",
+      "options": [
+        "6",
+        "3",
+        "8",
+        "638"
+      ],
+      "correctAnswer": "3",
+      "hints": {
+        "small": "The places from right to left are ones, tens, hundreds.",
+        "big": "The digit just left of the ones digit (8) is the tens digit."
+      },
+      "explanationSteps": [
+        "638 has three digits: 6, 3, and 8.",
+        "Reading from the right: 8 is ones, 3 is tens, 6 is hundreds.",
+        "So the tens digit is 3."
+      ],
+      "followUpQuestionId": "pv-q2"
+    },
+    {
+      "id": "pv-q2",
+      "prompt": "What is the value of the 7 in 275?",
+      "options": [
+        "7",
+        "70",
+        "700",
+        "7000"
+      ],
+      "correctAnswer": "70",
+      "hints": {
+        "small": "Look at which place the 7 is sitting in.",
+        "big": "The 7 is in the tens place, so its value is 7 tens."
+      },
+      "explanationSteps": [
+        "In 275, the digits are 2 (hundreds), 7 (tens), 5 (ones).",
+        "7 is in the tens place, so it stands for 7 tens.",
+        "7 tens = 70."
+      ],
+      "followUpQuestionId": "pv-q1"
+    },
+    {
+      "id": "pv-q3",
+      "prompt": "Write the number that has 4 hundreds, 0 tens, and 6 ones.",
+      "correctAnswer": "406",
+      "hints": {
+        "small": "Write the hundreds digit first, then tens, then ones.",
+        "big": "4 hundreds is 400, 0 tens is 0, 6 ones is 6. Put them together: 4_ _."
+      },
+      "explanationSteps": [
+        "4 hundreds = 400, 0 tens = 0, 6 ones = 6.",
+        "Put the digits in order: hundreds, tens, ones \u2192 4, 0, 6.",
+        "The number is 406."
+      ],
+      "followUpQuestionId": "pv-q4"
+    },
+    {
+      "id": "pv-q4",
+      "prompt": "Which number is greater: 512 or 521?",
+      "options": [
+        "512",
+        "521",
+        "They are equal"
+      ],
+      "correctAnswer": "521",
+      "hints": {
+        "small": "Compare the hundreds digits first \u2014 they're the same, so look at the tens.",
+        "big": "512 has 1 ten, 521 has 2 tens. 2 tens is more than 1 ten."
+      },
+      "explanationSteps": [
+        "Both numbers have 5 hundreds, so compare the tens digit.",
+        "512 has 1 in the tens place; 521 has 2 in the tens place.",
+        "2 tens is greater than 1 ten, so 521 is greater."
+      ],
+      "followUpQuestionId": "pv-q3"
+    },
+    {
+      "id": "pv-q5",
+      "prompt": "What is the value of the 6 in 461?",
+      "options": [
+        "6",
+        "60",
+        "600",
+        "6000"
+      ],
+      "correctAnswer": "60",
+      "hints": {
+        "small": "Look at which place the 6 sits in.",
+        "big": "6 is in the tens place, so it is worth 6 tens."
+      },
+      "explanationSteps": [
+        "In 461, the digits are 4 (hundreds), 6 (tens), 1 (ones).",
+        "6 is in the tens place, so it means 6 tens.",
+        "6 tens = 60."
+      ],
+      "followUpQuestionId": "pv-q6"
+    },
+    {
+      "id": "pv-q6",
+      "prompt": "Which is smaller: 389 or 398?",
+      "options": [
+        "389",
+        "398",
+        "They are equal"
+      ],
+      "correctAnswer": "389",
+      "hints": {
+        "small": "Compare the hundreds digits first \u2014 they're the same, so look at the tens.",
+        "big": "389 has 8 tens, 398 has 9 tens. 8 tens is less."
+      },
+      "explanationSteps": [
+        "Both numbers have 3 hundreds, so compare the tens digit.",
+        "389 has 8 in the tens place; 398 has 9.",
+        "8 tens is less than 9 tens, so 389 is smaller."
+      ],
+      "followUpQuestionId": "pv-q5"
+    },
+    {
+      "id": "pv-q7",
+      "prompt": "What is 300 + 40 + 5 written as one number?",
+      "options": [
+        "345",
+        "3405",
+        "30045",
+        "354"
+      ],
+      "correctAnswer": "345",
+      "hints": {
+        "small": "300 is hundreds, 40 is tens, 5 is ones \u2014 put them together.",
+        "big": "3 hundreds, 4 tens, 5 ones makes the digits 3, 4, 5."
+      },
+      "explanationSteps": [
+        "300 = 3 hundreds, 40 = 4 tens, 5 = 5 ones.",
+        "Putting the digits in order (hundreds, tens, ones) gives 3, 4, 5.",
+        "So 300 + 40 + 5 = 345."
+      ],
+      "followUpQuestionId": "pv-q8"
+    },
+    {
+      "id": "pv-q8",
+      "prompt": "In the number 709, how many tens are there?",
+      "options": [
+        "0",
+        "7",
+        "9",
+        "70"
+      ],
+      "correctAnswer": "0",
+      "hints": {
+        "small": "Look carefully at the middle digit.",
+        "big": "709 has a 0 in the tens place \u2014 there are no tens."
+      },
+      "explanationSteps": [
+        "709 has digits 7 (hundreds), 0 (tens), 9 (ones).",
+        "The tens digit is 0, so there are 0 tens."
+      ],
+      "followUpQuestionId": "pv-q7"
+    },
+    {
+      "id": "pv-q9",
+      "prompt": "Write the number that has 5 hundreds, 9 tens, and 2 ones.",
+      "correctAnswer": "592",
+      "hints": {
+        "small": "Write the hundreds digit first, then tens, then ones.",
+        "big": "5 hundreds, 9 tens, 2 ones gives the digits 5, 9, 2."
+      },
+      "explanationSteps": [
+        "5 hundreds = 500, 9 tens = 90, 2 ones = 2.",
+        "Put the digits in order: hundreds, tens, ones → 5, 9, 2.",
+        "The number is 592."
+      ],
+      "followUpQuestionId": "pv-q10"
+    },
+    {
+      "id": "pv-q10",
+      "prompt": "Which number is greater: 647 or 674?",
+      "options": [
+        "647",
+        "674",
+        "They are equal"
+      ],
+      "correctAnswer": "674",
+      "hints": {
+        "small": "Compare the hundreds digits first — they're the same, so look at the tens.",
+        "big": "647 has 4 tens, 674 has 7 tens. 7 tens is more."
+      },
+      "explanationSteps": [
+        "Both numbers have 6 hundreds, so compare the tens digit.",
+        "647 has 4 in the tens place; 674 has 7 in the tens place.",
+        "7 tens is greater than 4 tens, so 674 is greater."
+      ],
+      "followUpQuestionId": "pv-q9"
+    }
+  ]
+}

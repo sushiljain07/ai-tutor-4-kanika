@@ -1,0 +1,176 @@
+{
+  "id": "internet-safety",
+  "subjectId": "computer-studies",
+  "displayName": "Internet Safety Basics",
+  "sourceReference": "CompWiz - Class 3",
+  "explanation": {
+    "text": "The internet can be fun and helpful, but we must stay safe. We should never share personal information online, and we should always tell a trusted grown-up if something online makes us uncomfortable.",
+    "example": "If a stranger online asks for your home address, the safe thing to do is not answer, and tell a parent or teacher right away."
+  },
+  "questions": [
+    {
+      "id": "is-q1",
+      "prompt": "If someone online you don't know asks where you live, what should you do?",
+      "options": [
+        "Tell a trusted grown-up and don't share it",
+        "Tell them your address",
+        "Ignore it and keep chatting",
+        "Share your school name instead"
+      ],
+      "correctAnswer": "Tell a trusted grown-up and don't share it",
+      "hints": {
+        "small": "Personal information like your address should stay private online.",
+        "big": "The safe choice is to not share it and talk to a trusted adult."
+      },
+      "explanationSteps": [
+        "We should never share personal details like our address with strangers online.",
+        "The safe thing to do is not answer and tell a trusted grown-up right away."
+      ],
+      "followUpQuestionId": "is-q2",
+      "visualEmoji": "🔒"
+    },
+    {
+      "id": "is-q2",
+      "prompt": "Which of these is personal information you should keep private online?",
+      "options": [
+        "Your home address",
+        "Your favorite color",
+        "Your favorite game",
+        "Your favorite animal"
+      ],
+      "correctAnswer": "Your home address",
+      "hints": {
+        "small": "Think about which one could help a stranger find you.",
+        "big": "An address tells someone exactly where you live, so it should stay private."
+      },
+      "explanationSteps": [
+        "Personal information like your home address can help a stranger find you.",
+        "Favorite colors, games, and animals are safe to share; your address is not."
+      ],
+      "followUpQuestionId": "is-q1",
+      "visualEmoji": "🏠"
+    },
+    {
+      "id": "is-q3",
+      "prompt": "Something online makes you feel uncomfortable. What is the best thing to do?",
+      "options": [
+        "Tell a trusted adult right away",
+        "Keep it a secret",
+        "Reply angrily",
+        "Ignore it and keep browsing alone"
+      ],
+      "correctAnswer": "Tell a trusted adult right away",
+      "hints": {
+        "small": "Trusted adults can help when something online feels wrong.",
+        "big": "Telling a parent or teacher is always the safest choice."
+      },
+      "explanationSteps": [
+        "If something online feels uncomfortable or wrong, we should tell a trusted adult.",
+        "Keeping it secret or ignoring it doesn't keep us safe."
+      ],
+      "followUpQuestionId": "is-q4",
+      "visualEmoji": "🧑‍🏫"
+    },
+    {
+      "id": "is-q4",
+      "prompt": "Why shouldn't you click on a pop-up that says you've won a prize?",
+      "options": [
+        "It might be a trick to get personal information",
+        "It always gives free prizes safely",
+        "It makes the computer faster",
+        "It is a school assignment"
+      ],
+      "correctAnswer": "It might be a trick to get personal information",
+      "hints": {
+        "small": "Surprising prize pop-ups are often not what they seem.",
+        "big": "These pop-ups are sometimes tricks (called scams) to get your information."
+      },
+      "explanationSteps": [
+        "Surprise prize pop-ups are sometimes tricks to get personal information.",
+        "The safe choice is to not click them and tell a trusted adult if you see one."
+      ],
+      "followUpQuestionId": "is-q3",
+      "visualEmoji": "🎁"
+    },
+    {
+      "id": "is-q5",
+      "prompt": "Before sharing a photo of yourself online, what should you do?",
+      "options": [
+        "Ask a trusted adult first",
+        "Share it right away",
+        "Share it only with strangers",
+        "Nothing, it's always safe"
+      ],
+      "correctAnswer": "Ask a trusted adult first",
+      "hints": {
+        "small": "Getting permission keeps you safe.",
+        "big": "A trusted adult can help decide if it's okay to share."
+      },
+      "explanationSteps": [
+        "Always check with a trusted adult before sharing photos online.",
+        "This helps keep you safe from people who might misuse them."
+      ],
+      "followUpQuestionId": "is-q6"
+    },
+    {
+      "id": "is-q6",
+      "prompt": "What is a strong password more likely to include?",
+      "options": [
+        "A mix of letters, numbers, and symbols",
+        "Your full name",
+        "The word \"password\"",
+        "Your birthday"
+      ],
+      "correctAnswer": "A mix of letters, numbers, and symbols",
+      "hints": {
+        "small": "Easy-to-guess passwords are not safe.",
+        "big": "Mixing letters, numbers, and symbols makes a password harder to guess."
+      },
+      "explanationSteps": [
+        "A strong password mixes letters, numbers, and symbols.",
+        "Personal details like your name or birthday are easy for others to guess."
+      ],
+      "followUpQuestionId": "is-q5"
+    },
+    {
+      "id": "is-q7",
+      "prompt": "A message online says you must reply immediately or something bad will happen. What should you do?",
+      "options": [
+        "Stay calm and tell a trusted adult",
+        "Reply right away without thinking",
+        "Forward it to all your friends",
+        "Delete your account"
+      ],
+      "correctAnswer": "Stay calm and tell a trusted adult",
+      "hints": {
+        "small": "Messages that try to rush or scare you are often not honest.",
+        "big": "Trusted adults can help you figure out if a scary message is real."
+      },
+      "explanationSteps": [
+        "Messages that pressure you to act fast or scare you are often tricks.",
+        "The safe choice is to stay calm and tell a trusted adult."
+      ],
+      "followUpQuestionId": "is-q8"
+    },
+    {
+      "id": "is-q8",
+      "prompt": "How much time should you spend on a screen before taking a break?",
+      "options": [
+        "Take regular breaks, not too long at a time",
+        "As long as you want, no breaks needed",
+        "Only breaks when the battery dies",
+        "Never take breaks"
+      ],
+      "correctAnswer": "Take regular breaks, not too long at a time",
+      "hints": {
+        "small": "Resting your eyes and body is part of staying healthy online.",
+        "big": "Taking regular breaks helps protect your eyes and keeps you active."
+      },
+      "explanationSteps": [
+        "Taking regular breaks from screens helps rest your eyes and body.",
+        "Balancing screen time with other activities is part of being safe and healthy online."
+      ],
+      "followUpQuestionId": "is-q7"
+    }
+  ]
+}

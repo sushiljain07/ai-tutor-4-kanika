@@ -1,0 +1,176 @@
+{
+  "id": "keyboard-mouse",
+  "subjectId": "computer-studies",
+  "displayName": "Keyboard & Mouse Basics",
+  "sourceReference": "CompWiz - Class 3",
+  "explanation": {
+    "text": "The keyboard has special keys, like the Space Bar and Enter key, that do specific jobs. The mouse has a left button, a right button, and a scroll wheel.",
+    "example": "Pressing the Enter key starts a new line or confirms what you typed. Clicking the left mouse button selects something."
+  },
+  "questions": [
+    {
+      "id": "km-q1",
+      "prompt": "Which key do you press to add a space between words?",
+      "options": [
+        "Space Bar",
+        "Enter",
+        "Shift",
+        "Caps Lock"
+      ],
+      "correctAnswer": "Space Bar",
+      "hints": {
+        "small": "It is the longest key on the keyboard, at the bottom.",
+        "big": "You press this wide key to leave a gap between words."
+      },
+      "explanationSteps": [
+        "The Space Bar is the long key at the bottom of the keyboard.",
+        "Pressing it adds a space between words."
+      ],
+      "followUpQuestionId": "km-q2",
+      "visualEmoji": "⌨️"
+    },
+    {
+      "id": "km-q2",
+      "prompt": "Which key do you press to start a new line or confirm what you typed?",
+      "options": [
+        "Enter",
+        "Space Bar",
+        "Tab",
+        "Backspace"
+      ],
+      "correctAnswer": "Enter",
+      "hints": {
+        "small": "This key is often used to submit a form or move to a new line.",
+        "big": "Pressing this key moves the cursor to a new line."
+      },
+      "explanationSteps": [
+        "The Enter key moves the cursor to a new line or confirms an action.",
+        "It is commonly used when typing a message or filling a form."
+      ],
+      "followUpQuestionId": "km-q1",
+      "visualEmoji": "⏎"
+    },
+    {
+      "id": "km-q3",
+      "prompt": "Which mouse button usually opens a menu with more options?",
+      "options": [
+        "Right button",
+        "Left button",
+        "Scroll wheel",
+        "Middle button"
+      ],
+      "correctAnswer": "Right button",
+      "hints": {
+        "small": "It's not the button we usually click most often.",
+        "big": "Clicking the button on the right side of the mouse often opens a menu."
+      },
+      "explanationSteps": [
+        "The right mouse button usually opens a menu with more choices.",
+        "The left button is used more often for selecting and clicking."
+      ],
+      "followUpQuestionId": "km-q4",
+      "visualEmoji": "🖱️"
+    },
+    {
+      "id": "km-q4",
+      "prompt": "What do we call the small part on top of a mouse that helps us move up and down a page quickly?",
+      "options": [
+        "Scroll wheel",
+        "Left button",
+        "Cable",
+        "Sensor"
+      ],
+      "correctAnswer": "Scroll wheel",
+      "hints": {
+        "small": "It's usually between the two mouse buttons.",
+        "big": "Rolling this wheel moves the page up or down."
+      },
+      "explanationSteps": [
+        "The scroll wheel sits between the left and right buttons on a mouse.",
+        "Rolling it lets us move up and down a page quickly."
+      ],
+      "followUpQuestionId": "km-q3",
+      "visualEmoji": "🖱️"
+    },
+    {
+      "id": "km-q5",
+      "prompt": "Which key erases the letter just before the cursor?",
+      "options": [
+        "Backspace",
+        "Enter",
+        "Shift",
+        "Tab"
+      ],
+      "correctAnswer": "Backspace",
+      "hints": {
+        "small": "This key removes what you just typed.",
+        "big": "Backspace deletes the character to the left of the cursor."
+      },
+      "explanationSteps": [
+        "Backspace removes the letter immediately before the cursor.",
+        "It's useful for fixing typing mistakes."
+      ],
+      "followUpQuestionId": "km-q6"
+    },
+    {
+      "id": "km-q6",
+      "prompt": "What do we call quickly pressing the mouse button twice?",
+      "options": [
+        "Double-click",
+        "Single-click",
+        "Right-click",
+        "Drag"
+      ],
+      "correctAnswer": "Double-click",
+      "hints": {
+        "small": "Think about how you open an app icon.",
+        "big": "Pressing the button twice quickly is called a double-click."
+      },
+      "explanationSteps": [
+        "Clicking the mouse button twice quickly is called a double-click.",
+        "It's often used to open a file or program."
+      ],
+      "followUpQuestionId": "km-q5"
+    },
+    {
+      "id": "km-q7",
+      "prompt": "Which key, when held down while typing a letter, makes it a capital letter?",
+      "options": [
+        "Shift",
+        "Tab",
+        "Caps Lock",
+        "Enter"
+      ],
+      "correctAnswer": "Shift",
+      "hints": {
+        "small": "You hold this key down briefly while pressing a letter.",
+        "big": "Holding Shift while pressing a letter key types it as a capital."
+      },
+      "explanationSteps": [
+        "Holding Shift while pressing a letter key makes that one letter a capital.",
+        "This is different from Caps Lock, which stays on for many letters."
+      ],
+      "followUpQuestionId": "km-q8"
+    },
+    {
+      "id": "km-q8",
+      "prompt": "What happens when you press and hold the mouse button while moving the mouse?",
+      "options": [
+        "Dragging",
+        "Clicking",
+        "Scrolling",
+        "Typing"
+      ],
+      "correctAnswer": "Dragging",
+      "hints": {
+        "small": "Think about moving an icon from one place to another on the screen.",
+        "big": "Holding the button down while moving the mouse is called dragging."
+      },
+      "explanationSteps": [
+        "Pressing and holding the mouse button while moving it is called dragging.",
+        "It's often used to move an icon or file to a new place."
+      ],
+      "followUpQuestionId": "km-q7"
+    }
+  ]
+}

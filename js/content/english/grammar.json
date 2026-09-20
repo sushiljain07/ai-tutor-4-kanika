@@ -1,0 +1,174 @@
+{
+  "id": "grammar",
+  "subjectId": "english",
+  "displayName": "Grammar Basics",
+  "sourceReference": "Good Grammar with Composition Book 3",
+  "explanation": {
+    "text": "A noun names a person, place, or thing. A verb tells us what someone or something does. An adjective describes a noun.",
+    "example": "In \"The happy dog ran fast\", \"dog\" is a noun, \"ran\" is a verb, and \"happy\" is an adjective."
+  },
+  "questions": [
+    {
+      "id": "gr-q1",
+      "prompt": "Which word in this sentence is a noun? \"The cat slept on the mat.\"",
+      "options": [
+        "slept",
+        "on",
+        "cat",
+        "the"
+      ],
+      "correctAnswer": "cat",
+      "hints": {
+        "small": "A noun names a person, place, or thing.",
+        "big": "Which word names an animal (a thing)?"
+      },
+      "explanationSteps": [
+        "A noun names a person, place, or thing.",
+        "\"Cat\" names an animal, so it is the noun."
+      ],
+      "followUpQuestionId": "gr-q2"
+    },
+    {
+      "id": "gr-q2",
+      "prompt": "Which word in this sentence is a verb? \"Riya sings a song.\"",
+      "options": [
+        "Riya",
+        "sings",
+        "a",
+        "song"
+      ],
+      "correctAnswer": "sings",
+      "hints": {
+        "small": "A verb tells us what someone does.",
+        "big": "What is Riya doing in this sentence?"
+      },
+      "explanationSteps": [
+        "A verb tells us what someone or something does.",
+        "Riya is doing the action of \"singing\", so \"sings\" is the verb."
+      ],
+      "followUpQuestionId": "gr-q1"
+    },
+    {
+      "id": "gr-q3",
+      "prompt": "Which word describes the noun in this sentence? \"The tall tree gave us shade.\"",
+      "options": [
+        "tree",
+        "gave",
+        "us",
+        "tall"
+      ],
+      "correctAnswer": "tall",
+      "hints": {
+        "small": "An adjective describes a noun — what kind of tree is it?",
+        "big": "\"Tall\" tells us more about the tree, so it's the adjective."
+      },
+      "explanationSteps": [
+        "An adjective describes a noun.",
+        "\"Tall\" describes the tree, so \"tall\" is the adjective."
+      ],
+      "followUpQuestionId": "gr-q4"
+    },
+    {
+      "id": "gr-q4",
+      "prompt": "Which word is a pronoun in this sentence? \"She played with her friends.\"",
+      "options": [
+        "She",
+        "played",
+        "with",
+        "friends"
+      ],
+      "correctAnswer": "She",
+      "hints": {
+        "small": "A pronoun takes the place of a person's name.",
+        "big": "\"She\" is used instead of saying a girl's name."
+      },
+      "explanationSteps": [
+        "A pronoun takes the place of a noun, like a name.",
+        "\"She\" stands in for a girl's name, so it is the pronoun."
+      ],
+      "followUpQuestionId": "gr-q3"
+    },
+    {
+      "id": "gr-q5",
+      "prompt": "Which word is an adverb in this sentence? \"She ran quickly to the bus.\"",
+      "options": [
+        "ran",
+        "quickly",
+        "bus",
+        "She"
+      ],
+      "correctAnswer": "quickly",
+      "hints": {
+        "small": "An adverb tells us how an action is done.",
+        "big": "\"Quickly\" tells us how she ran."
+      },
+      "explanationSteps": [
+        "An adverb describes a verb, telling us how, when, or where.",
+        "\"Quickly\" tells us how she ran, so it is the adverb."
+      ],
+      "followUpQuestionId": "gr-q6"
+    },
+    {
+      "id": "gr-q6",
+      "prompt": "Which sentence uses the correct tense?",
+      "options": [
+        "Yesterday, I go to the park.",
+        "Yesterday, I went to the park.",
+        "Yesterday, I going to the park.",
+        "Yesterday, I goes to the park."
+      ],
+      "correctAnswer": "Yesterday, I went to the park.",
+      "hints": {
+        "small": "\"Yesterday\" tells us this already happened.",
+        "big": "The past tense of \"go\" is \"went\"."
+      },
+      "explanationSteps": [
+        "\"Yesterday\" signals the past tense.",
+        "The past tense of \"go\" is \"went\".",
+        "So the correct sentence is: \"Yesterday, I went to the park.\""
+      ],
+      "followUpQuestionId": "gr-q5"
+    },
+    {
+      "id": "gr-q7",
+      "prompt": "Which word in this sentence is a preposition? \"The cat sat under the table.\"",
+      "options": [
+        "cat",
+        "sat",
+        "under",
+        "table"
+      ],
+      "correctAnswer": "under",
+      "hints": {
+        "small": "A preposition often tells us where something is.",
+        "big": "\"Under\" tells us the position of the cat compared to the table."
+      },
+      "explanationSteps": [
+        "A preposition shows the relationship between words, often about place or time.",
+        "\"Under\" tells us where the cat is, so it is the preposition."
+      ],
+      "followUpQuestionId": "gr-q8"
+    },
+    {
+      "id": "gr-q8",
+      "prompt": "Which sentence uses the correct article?",
+      "options": [
+        "I saw a elephant.",
+        "I saw an elephant.",
+        "I saw the elephant a.",
+        "I saw elephant an."
+      ],
+      "correctAnswer": "I saw an elephant.",
+      "hints": {
+        "small": "Words starting with a vowel sound usually use \"an\", not \"a\".",
+        "big": "\"Elephant\" starts with the vowel sound \"e\", so it needs \"an\"."
+      },
+      "explanationSteps": [
+        "We use \"an\" before words that start with a vowel sound (a, e, i, o, u).",
+        "\"Elephant\" starts with \"e\", so it needs \"an\".",
+        "The correct sentence is: \"I saw an elephant.\""
+      ],
+      "followUpQuestionId": "gr-q7"
+    }
+  ]
+}

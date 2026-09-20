@@ -1,0 +1,230 @@
+{
+  "id": "division",
+  "subjectId": "math",
+  "displayName": "Division",
+  "sourceReference": "New Mathematics Today - 3",
+  "explanation": {
+    "text": "Dividing means sharing a number into equal groups. Division is the opposite of multiplication.",
+    "example": "12 ÷ 3 asks: if we share 12 things into 3 equal groups, how many are in each group? The answer is 4, because 3 x 4 = 12."
+  },
+  "questions": [
+    {
+      "id": "dv-q1",
+      "prompt": "What is 12 ÷ 4?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "correctAnswer": "3",
+      "hints": {
+        "small": "Think: 4 times what number makes 12?",
+        "big": "4 x 3 = 12, so 12 ÷ 4 = ?"
+      },
+      "explanationSteps": [
+        "Division undoes multiplication.",
+        "We ask: 4 x ? = 12. Since 4 x 3 = 12, the answer is 3.",
+        "So 12 ÷ 4 = 3."
+      ],
+      "followUpQuestionId": "dv-q2"
+    },
+    {
+      "id": "dv-q2",
+      "prompt": "What is 20 ÷ 5?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "15"
+      ],
+      "correctAnswer": "4",
+      "hints": {
+        "small": "Think: 5 times what number makes 20?",
+        "big": "5 x 4 = 20, so 20 ÷ 5 = ?"
+      },
+      "explanationSteps": [
+        "We ask: 5 x ? = 20. Since 5 x 4 = 20, the answer is 4.",
+        "So 20 ÷ 5 = 4."
+      ],
+      "followUpQuestionId": "dv-q1"
+    },
+    {
+      "id": "dv-q3",
+      "prompt": "There are 18 stickers shared equally among 3 friends. How many stickers does each friend get?",
+      "correctAnswer": "6",
+      "hints": {
+        "small": "Sharing equally among 3 friends means dividing by 3.",
+        "big": "18 ÷ 3: think 3 x ? = 18."
+      },
+      "explanationSteps": [
+        "Sharing 18 stickers among 3 friends means 18 ÷ 3.",
+        "3 x 6 = 18, so each friend gets 6 stickers.",
+        "18 ÷ 3 = 6."
+      ],
+      "followUpQuestionId": "dv-q4"
+    },
+    {
+      "id": "dv-q4",
+      "prompt": "What is 24 ÷ 6?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "18"
+      ],
+      "correctAnswer": "4",
+      "hints": {
+        "small": "Think: 6 times what number makes 24?",
+        "big": "6 x 4 = 24, so 24 ÷ 6 = ?"
+      },
+      "explanationSteps": [
+        "We ask: 6 x ? = 24. Since 6 x 4 = 24, the answer is 4.",
+        "So 24 ÷ 6 = 4."
+      ],
+      "followUpQuestionId": "dv-q3"
+    },
+    {
+      "id": "dv-q5",
+      "prompt": "What is 36 ÷ 9?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "9"
+      ],
+      "correctAnswer": "4",
+      "hints": {
+        "small": "Think: 9 times what number makes 36?",
+        "big": "9 x 4 = 36, so 36 ÷ 9 = ?"
+      },
+      "explanationSteps": [
+        "We ask: 9 x ? = 36. Since 9 x 4 = 36, the answer is 4.",
+        "So 36 ÷ 9 = 4."
+      ],
+      "followUpQuestionId": "dv-q6"
+    },
+    {
+      "id": "dv-q6",
+      "prompt": "16 crayons are shared equally among 4 children. How many crayons does each child get?",
+      "correctAnswer": "4",
+      "hints": {
+        "small": "Sharing equally among 4 children means dividing by 4.",
+        "big": "16 ÷ 4: think 4 x ? = 16."
+      },
+      "explanationSteps": [
+        "Sharing 16 crayons among 4 children means 16 ÷ 4.",
+        "4 x 4 = 16, so each child gets 4.",
+        "16 ÷ 4 = 4."
+      ],
+      "followUpQuestionId": "dv-q5"
+    },
+    {
+      "id": "dv-q7",
+      "prompt": "What is 45 ÷ 5?",
+      "options": [
+        "5",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "9",
+      "hints": {
+        "small": "Think: 5 times what number makes 45?",
+        "big": "5 x 9 = 45, so 45 ÷ 5 = ?"
+      },
+      "explanationSteps": [
+        "We ask: 5 x ? = 45. Since 5 x 9 = 45, the answer is 9.",
+        "So 45 ÷ 5 = 9."
+      ],
+      "followUpQuestionId": "dv-q8"
+    },
+    {
+      "id": "dv-q8",
+      "prompt": "28 chocolates are shared equally among 7 friends. How many chocolates does each friend get?",
+      "correctAnswer": "4",
+      "hints": {
+        "small": "Sharing equally among 7 friends means dividing by 7.",
+        "big": "28 ÷ 7: think 7 x ? = 28."
+      },
+      "explanationSteps": [
+        "Sharing 28 chocolates among 7 friends means 28 ÷ 7.",
+        "7 x 4 = 28, so each friend gets 4.",
+        "28 ÷ 7 = 4."
+      ],
+      "followUpQuestionId": "dv-q7"
+    },
+    {
+      "id": "dv-q9",
+      "prompt": "What is 32 ÷ 8?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "4",
+      "hints": {
+        "small": "Think: 8 times what number makes 32?",
+        "big": "8 x 4 = 32, so 32 ÷ 8 = ?"
+      },
+      "explanationSteps": [
+        "We ask: 8 x ? = 32. Since 8 x 4 = 32, the answer is 4.",
+        "So 32 ÷ 8 = 4."
+      ],
+      "followUpQuestionId": "dv-q10"
+    },
+    {
+      "id": "dv-q10",
+      "prompt": "What is 40 ÷ 5?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "8",
+      "hints": {
+        "small": "Think: 5 times what number makes 40?",
+        "big": "5 x 8 = 40, so 40 ÷ 5 = ?"
+      },
+      "explanationSteps": [
+        "We ask: 5 x ? = 40. Since 5 x 8 = 40, the answer is 8.",
+        "So 40 ÷ 5 = 8."
+      ],
+      "followUpQuestionId": "dv-q9"
+    },
+    {
+      "id": "dv-q11",
+      "prompt": "27 marbles are shared equally among 9 boys. How many marbles does each boy get?",
+      "correctAnswer": "3",
+      "hints": {
+        "small": "Sharing equally among 9 boys means dividing by 9.",
+        "big": "27 ÷ 9: think 9 x ? = 27."
+      },
+      "explanationSteps": [
+        "Sharing 27 marbles among 9 boys means 27 ÷ 9.",
+        "9 x 3 = 27, so each boy gets 3 marbles.",
+        "27 ÷ 9 = 3."
+      ],
+      "followUpQuestionId": "dv-q12",
+      "visualEmoji": "🔵"
+    },
+    {
+      "id": "dv-q12",
+      "prompt": "30 story books are arranged equally on 5 shelves. How many books are on each shelf?",
+      "correctAnswer": "6",
+      "hints": {
+        "small": "Arranging equally on 5 shelves means dividing by 5.",
+        "big": "30 ÷ 5: think 5 x ? = 30."
+      },
+      "explanationSteps": [
+        "Arranging 30 books on 5 shelves means 30 ÷ 5.",
+        "5 x 6 = 30, so each shelf holds 6 books.",
+        "30 ÷ 5 = 6."
+      ],
+      "followUpQuestionId": "dv-q11",
+      "visualEmoji": "📚"
+    }
+  ]
+}

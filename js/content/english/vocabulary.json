@@ -1,0 +1,180 @@
+{
+  "id": "vocabulary",
+  "subjectId": "english",
+  "displayName": "Vocabulary",
+  "sourceReference": "Gul Mohar - Language for Life Reader 3",
+  "explanation": {
+    "text": "Learning new words helps us understand stories and express our own ideas better. Each word card shows its meaning and an example sentence.",
+    "example": "The word \"enormous\" means very, very big. Example: The elephant was enormous."
+  },
+  "questions": [
+    {
+      "id": "voc-q1",
+      "prompt": "What does the word \"enormous\" mean? (Example: The elephant was enormous.)",
+      "options": [
+        "Very small",
+        "Very big",
+        "Very fast",
+        "Very quiet"
+      ],
+      "correctAnswer": "Very big",
+      "hints": {
+        "small": "Think about the size of an elephant.",
+        "big": "\"Enormous\" describes something huge, like an elephant."
+      },
+      "explanationSteps": [
+        "\"Enormous\" means very, very big.",
+        "An elephant is enormous because it is huge."
+      ],
+      "followUpQuestionId": "voc-q2",
+      "visualEmoji": "🐘"
+    },
+    {
+      "id": "voc-q2",
+      "prompt": "What does the word \"gentle\" mean? (Example: She gave the puppy a gentle pat.)",
+      "options": [
+        "Soft and kind",
+        "Loud and rough",
+        "Fast and messy",
+        "Cold and wet"
+      ],
+      "correctAnswer": "Soft and kind",
+      "hints": {
+        "small": "Think about how you would pet a small puppy.",
+        "big": "\"Gentle\" means soft, careful, and kind — not rough."
+      },
+      "explanationSteps": [
+        "\"Gentle\" means soft and kind, not rough.",
+        "A gentle pat is a soft, careful touch."
+      ],
+      "followUpQuestionId": "voc-q1",
+      "visualEmoji": "🐶"
+    },
+    {
+      "id": "voc-q3",
+      "prompt": "What does the word \"curious\" mean? (Example: The curious cat looked inside every box.)",
+      "options": [
+        "Sleepy",
+        "Wanting to know more",
+        "Angry",
+        "Hungry"
+      ],
+      "correctAnswer": "Wanting to know more",
+      "hints": {
+        "small": "Think about why the cat looked inside every box.",
+        "big": "\"Curious\" means wanting to find out or learn about something."
+      },
+      "explanationSteps": [
+        "\"Curious\" means wanting to know or learn more about something.",
+        "The cat was curious, so it explored every box."
+      ],
+      "followUpQuestionId": "voc-q4",
+      "visualEmoji": "🐱"
+    },
+    {
+      "id": "voc-q4",
+      "prompt": "What does the word \"delighted\" mean? (Example: She was delighted with her new bicycle.)",
+      "options": [
+        "Very upset",
+        "Very sleepy",
+        "Very happy",
+        "Very confused"
+      ],
+      "correctAnswer": "Very happy",
+      "hints": {
+        "small": "Think about how someone feels when they get a gift they love.",
+        "big": "\"Delighted\" means extremely pleased and happy."
+      },
+      "explanationSteps": [
+        "\"Delighted\" means very happy or pleased.",
+        "She was delighted, so the new bicycle made her very happy."
+      ],
+      "followUpQuestionId": "voc-q3",
+      "visualEmoji": "🚲"
+    },
+    {
+      "id": "voc-q5",
+      "prompt": "What does the word \"brave\" mean? (Example: The brave firefighter rescued the cat.)",
+      "options": [
+        "Very scared",
+        "Not afraid of danger",
+        "Very tired",
+        "Very shy"
+      ],
+      "correctAnswer": "Not afraid of danger",
+      "hints": {
+        "small": "Think about someone who helps in dangerous situations.",
+        "big": "\"Brave\" means showing courage, not being afraid."
+      },
+      "explanationSteps": [
+        "\"Brave\" means not being afraid of danger.",
+        "A firefighter rescuing a cat is being brave."
+      ],
+      "followUpQuestionId": "voc-q6",
+      "visualEmoji": "🦸"
+    },
+    {
+      "id": "voc-q6",
+      "prompt": "What does the word \"exhausted\" mean? (Example: After the long race, she felt exhausted.)",
+      "options": [
+        "Very excited",
+        "Very hungry",
+        "Extremely tired",
+        "Very happy"
+      ],
+      "correctAnswer": "Extremely tired",
+      "hints": {
+        "small": "Think about how you feel after running a long race.",
+        "big": "\"Exhausted\" means extremely tired, more than just sleepy."
+      },
+      "explanationSteps": [
+        "\"Exhausted\" means extremely tired.",
+        "After a long race, her body used lots of energy, so she felt exhausted."
+      ],
+      "followUpQuestionId": "voc-q5",
+      "visualEmoji": "😴"
+    },
+    {
+      "id": "voc-q7",
+      "prompt": "What does the word \"ancient\" mean? (Example: The museum had an ancient pot from long ago.)",
+      "options": [
+        "Very new",
+        "Very old",
+        "Very small",
+        "Very colourful"
+      ],
+      "correctAnswer": "Very old",
+      "hints": {
+        "small": "Think about things you see in a museum.",
+        "big": "\"Ancient\" describes something from a very long time ago."
+      },
+      "explanationSteps": [
+        "\"Ancient\" means very old, from a long time ago.",
+        "A pot from long ago in a museum would be ancient."
+      ],
+      "followUpQuestionId": "voc-q8",
+      "visualEmoji": "🏺"
+    },
+    {
+      "id": "voc-q8",
+      "prompt": "What does the word \"nervous\" mean? (Example: She felt nervous before her first day at school.)",
+      "options": [
+        "Very calm",
+        "Worried or a little scared",
+        "Very hungry",
+        "Very sleepy"
+      ],
+      "correctAnswer": "Worried or a little scared",
+      "hints": {
+        "small": "Think about how you might feel before something new happens.",
+        "big": "\"Nervous\" means feeling a bit worried or uneasy."
+      },
+      "explanationSteps": [
+        "\"Nervous\" means feeling worried or a little scared.",
+        "Starting something new, like a first day at school, can make someone nervous."
+      ],
+      "followUpQuestionId": "voc-q7",
+      "visualEmoji": "😬"
+    }
+  ]
+}

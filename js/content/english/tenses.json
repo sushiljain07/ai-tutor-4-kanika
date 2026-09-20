@@ -1,0 +1,176 @@
+{
+  "id": "tenses",
+  "subjectId": "english",
+  "displayName": "Simple Tenses",
+  "sourceReference": "Good Grammar with Composition Book 3",
+  "explanation": {
+    "text": "Tense tells us when something happens. Simple present is for things that happen regularly, simple past is for things that already happened, and simple future is for things that will happen later.",
+    "example": "\"I play\" (present), \"I played\" (past), \"I will play\" (future) — the verb changes to show when the action happens."
+  },
+  "questions": [
+    {
+      "id": "t-q1",
+      "prompt": "What tense is this sentence? \"She plays football every day.\"",
+      "options": [
+        "Simple Present",
+        "Simple Past",
+        "Simple Future"
+      ],
+      "correctAnswer": "Simple Present",
+      "hints": {
+        "small": "\"Every day\" tells us this happens regularly, not just once.",
+        "big": "Things that happen regularly, right now or always, use simple present."
+      },
+      "explanationSteps": [
+        "\"Every day\" signals a regular action, not something already finished or yet to come.",
+        "Regular actions use simple present.",
+        "So this sentence is in simple present tense."
+      ],
+      "followUpQuestionId": "t-q2"
+    },
+    {
+      "id": "t-q2",
+      "prompt": "What tense is this sentence? \"She played football yesterday.\"",
+      "options": [
+        "Simple Present",
+        "Simple Past",
+        "Simple Future"
+      ],
+      "correctAnswer": "Simple Past",
+      "hints": {
+        "small": "\"Yesterday\" tells us this already happened.",
+        "big": "Words like \"yesterday\" signal simple past tense."
+      },
+      "explanationSteps": [
+        "\"Yesterday\" tells us the action is already finished.",
+        "Finished actions use simple past.",
+        "So this sentence is in simple past tense."
+      ],
+      "followUpQuestionId": "t-q1"
+    },
+    {
+      "id": "t-q3",
+      "prompt": "Fill in the blank: \"Tomorrow, I ___ to the market.\"",
+      "options": [
+        "go",
+        "went",
+        "will go",
+        "going"
+      ],
+      "correctAnswer": "will go",
+      "hints": {
+        "small": "\"Tomorrow\" tells us this hasn't happened yet.",
+        "big": "Things that will happen later use \"will\" plus the verb."
+      },
+      "explanationSteps": [
+        "\"Tomorrow\" signals something that hasn't happened yet.",
+        "Simple future uses \"will\" before the verb.",
+        "So the correct answer is \"will go\"."
+      ],
+      "followUpQuestionId": "t-q4"
+    },
+    {
+      "id": "t-q4",
+      "prompt": "Fill in the blank: \"Yesterday, we ___ ice cream.\"",
+      "options": [
+        "eat",
+        "ate",
+        "eating",
+        "will eat"
+      ],
+      "correctAnswer": "ate",
+      "hints": {
+        "small": "\"Yesterday\" tells us this already happened.",
+        "big": "The past tense of \"eat\" is \"ate\"."
+      },
+      "explanationSteps": [
+        "\"Yesterday\" signals the past tense.",
+        "The past tense of \"eat\" is \"ate\".",
+        "So the correct answer is \"ate\"."
+      ],
+      "followUpQuestionId": "t-q3"
+    },
+    {
+      "id": "t-q5",
+      "prompt": "Fill in the blank: \"He ___ a letter every week.\"",
+      "options": [
+        "write",
+        "writes",
+        "wrote",
+        "will write"
+      ],
+      "correctAnswer": "writes",
+      "hints": {
+        "small": "\"Every week\" tells us this happens regularly, and the subject is \"he\".",
+        "big": "For he/she/it in simple present, we usually add \"-s\" to the verb: \"writes\"."
+      },
+      "explanationSteps": [
+        "\"Every week\" signals a regular action, so we use simple present.",
+        "With \"he\", we add \"-s\" to the verb: \"writes\".",
+        "So the correct answer is \"writes\"."
+      ],
+      "followUpQuestionId": "t-q6"
+    },
+    {
+      "id": "t-q6",
+      "prompt": "Fill in the blank: \"Next week, they ___ their grandmother.\"",
+      "options": [
+        "visit",
+        "visited",
+        "will visit",
+        "visiting"
+      ],
+      "correctAnswer": "will visit",
+      "hints": {
+        "small": "\"Next week\" tells us this hasn't happened yet.",
+        "big": "Things that will happen later use \"will\" plus the verb."
+      },
+      "explanationSteps": [
+        "\"Next week\" signals something that hasn't happened yet.",
+        "Simple future uses \"will\" before the verb.",
+        "So the correct answer is \"will visit\"."
+      ],
+      "followUpQuestionId": "t-q5"
+    },
+    {
+      "id": "t-q7",
+      "prompt": "What tense is this sentence? \"The sun will rise at 6 am tomorrow.\"",
+      "options": [
+        "Simple Present",
+        "Simple Past",
+        "Simple Future"
+      ],
+      "correctAnswer": "Simple Future",
+      "hints": {
+        "small": "Look for the word \"will\" and \"tomorrow\".",
+        "big": "\"Will\" plus a verb, talking about tomorrow, is simple future."
+      },
+      "explanationSteps": [
+        "\"Will rise\" and \"tomorrow\" both point to something not yet happened.",
+        "This is simple future tense.",
+        "So the answer is Simple Future."
+      ],
+      "followUpQuestionId": "t-q8"
+    },
+    {
+      "id": "t-q8",
+      "prompt": "What tense is this sentence? \"The sun rose at 6 am yesterday.\"",
+      "options": [
+        "Simple Present",
+        "Simple Past",
+        "Simple Future"
+      ],
+      "correctAnswer": "Simple Past",
+      "hints": {
+        "small": "Look at the word \"rose\" and \"yesterday\".",
+        "big": "\"Rose\" is the past form of \"rise\", and \"yesterday\" confirms it already happened."
+      },
+      "explanationSteps": [
+        "\"Rose\" is the past tense of \"rise\".",
+        "\"Yesterday\" confirms this already happened.",
+        "So the answer is Simple Past."
+      ],
+      "followUpQuestionId": "t-q7"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "sentence-formation",
+  "subjectId": "english",
+  "displayName": "Sentence Formation",
+  "sourceReference": "Gul Mohar - Language for Life Reader 3",
+  "explanation": {
+    "text": "A good sentence needs the right word in the right place. Let's practice filling in the missing word to complete a sentence.",
+    "example": "\"The birds ___ in the sky\" is completed with \"fly\": The birds fly in the sky."
+  },
+  "questions": [
+    {
+      "id": "sf-q1",
+      "prompt": "Fill in the blank: \"The sun ___ in the east.\"",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rose yesterday"
+      ],
+      "correctAnswer": "rises",
+      "hints": {
+        "small": "The sentence is about something that happens every day, so use the simple present tense.",
+        "big": "For \"the sun\" (one thing), we add -s to the verb: \"rises\"."
+      },
+      "explanationSteps": [
+        "This sentence describes something that always happens, so we use the simple present tense.",
+        "\"The sun\" is singular, so the verb takes an -s: \"rises\".",
+        "The correct sentence is: \"The sun rises in the east.\""
+      ],
+      "followUpQuestionId": "sf-q2"
+    },
+    {
+      "id": "sf-q2",
+      "prompt": "Fill in the blank: \"Yesterday, we ___ to the park.\"",
+      "options": [
+        "go",
+        "goes",
+        "went",
+        "going"
+      ],
+      "correctAnswer": "went",
+      "hints": {
+        "small": "The word \"Yesterday\" tells us this already happened.",
+        "big": "The past tense of \"go\" is \"went\"."
+      },
+      "explanationSteps": [
+        "\"Yesterday\" tells us the action already happened, so we need the past tense.",
+        "The past tense of \"go\" is \"went\".",
+        "The correct sentence is: \"Yesterday, we went to the park.\""
+      ],
+      "followUpQuestionId": "sf-q1"
+    },
+    {
+      "id": "sf-q3",
+      "prompt": "Choose the sentence that is written correctly.",
+      "options": [
+        "She like ice cream.",
+        "She likes ice cream.",
+        "She liking ice cream.",
+        "She to like ice cream."
+      ],
+      "correctAnswer": "She likes ice cream.",
+      "hints": {
+        "small": "\"She\" is one person, so the verb needs an -s.",
+        "big": "\"She like\" is missing the -s that \"she\" needs: \"likes\"."
+      },
+      "explanationSteps": [
+        "When the subject is \"she\" (one person), present-tense verbs usually add -s.",
+        "\"Like\" becomes \"likes\" with \"she\".",
+        "The correct sentence is: \"She likes ice cream.\""
+      ],
+      "followUpQuestionId": "sf-q4"
+    },
+    {
+      "id": "sf-q4",
+      "prompt": "Fill in the blank: \"The children ___ playing in the garden.\"",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "are",
+      "hints": {
+        "small": "\"Children\" means more than one, so which form of \"to be\" matches?",
+        "big": "For more than one person, we use \"are\", not \"is\"."
+      },
+      "explanationSteps": [
+        "\"Children\" is plural (more than one), so we use \"are\".",
+        "The correct sentence is: \"The children are playing in the garden.\""
+      ],
+      "followUpQuestionId": "sf-q3"
+    },
+    {
+      "id": "sf-q5",
+      "prompt": "Fill in the blank: \"He ___ his homework every day.\"",
+      "options": [
+        "do",
+        "does",
+        "doing",
+        "did"
+      ],
+      "correctAnswer": "does",
+      "hints": {
+        "small": "\"He\" is one person, so the verb needs a special ending.",
+        "big": "\"Do\" becomes \"does\" with he, she, or it."
+      },
+      "explanationSteps": [
+        "With \"he\", present-tense verbs often add -es.",
+        "\"Do\" becomes \"does\".",
+        "The correct sentence is: \"He does his homework every day.\""
+      ],
+      "followUpQuestionId": "sf-q6"
+    },
+    {
+      "id": "sf-q6",
+      "prompt": "Choose the sentence that is written correctly.",
+      "options": [
+        "They was playing outside.",
+        "They were playing outside.",
+        "They is playing outside.",
+        "They am playing outside."
+      ],
+      "correctAnswer": "They were playing outside.",
+      "hints": {
+        "small": "\"They\" is plural — which form of \"was/were\" matches?",
+        "big": "For \"they\" (more than one), we use \"were\", not \"was\"."
+      },
+      "explanationSteps": [
+        "\"They\" is plural, so we use \"were\".",
+        "The correct sentence is: \"They were playing outside.\""
+      ],
+      "followUpQuestionId": "sf-q5"
+    },
+    {
+      "id": "sf-q7",
+      "prompt": "Fill in the blank: \"I ___ my books before I go to school.\"",
+      "options": [
+        "pack",
+        "packs",
+        "packing",
+        "packed"
+      ],
+      "correctAnswer": "pack",
+      "hints": {
+        "small": "\"I\" does not need an -s ending on the verb.",
+        "big": "With \"I\", we use the plain form: \"pack\", not \"packs\"."
+      },
+      "explanationSteps": [
+        "With \"I\", present-tense verbs usually stay in their plain form.",
+        "The correct sentence is: \"I pack my books before I go to school.\""
+      ],
+      "followUpQuestionId": "sf-q8"
+    },
+    {
+      "id": "sf-q8",
+      "prompt": "Choose the sentence that is written correctly.",
+      "options": [
+        "The dogs is barking.",
+        "The dogs are barking.",
+        "The dogs am barking.",
+        "The dog are barking."
+      ],
+      "correctAnswer": "The dogs are barking.",
+      "hints": {
+        "small": "\"Dogs\" is plural — which form of \"to be\" matches?",
+        "big": "For more than one dog, we use \"are\", not \"is\"."
+      },
+      "explanationSteps": [
+        "\"Dogs\" is plural (more than one), so we use \"are\".",
+        "The correct sentence is: \"The dogs are barking.\""
+      ],
+      "followUpQuestionId": "sf-q7"
+    }
+  ]
+}

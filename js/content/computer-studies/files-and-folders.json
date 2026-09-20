@@ -1,0 +1,184 @@
+{
+  "id": "files-and-folders",
+  "subjectId": "computer-studies",
+  "displayName": "Files & Folders",
+  "sourceReference": "CompWiz - Class 3",
+  "explanation": {
+    "text": "A file is a piece of work saved on a computer, like a picture or a document. A folder is a place used to keep files organized together, just like a real folder holds paper.",
+    "example": "You might save a drawing as a file, and keep all your drawing files together inside a folder called \"My Drawings\"."
+  },
+  "questions": [
+    {
+      "id": "ff-q1",
+      "prompt": "What do we call a piece of work saved on a computer, like a picture or a document?",
+      "options": [
+        "A file",
+        "A folder",
+        "A mouse",
+        "A screen"
+      ],
+      "correctAnswer": "A file",
+      "hints": {
+        "small": "Think about what you save when you finish a drawing or a document.",
+        "big": "Saved work like pictures and documents are called files."
+      },
+      "explanationSteps": [
+        "A file is a piece of saved work, such as a picture, document, or song.",
+        "So the answer is \"A file\"."
+      ],
+      "followUpQuestionId": "ff-q2",
+      "visualEmoji": "📄"
+    },
+    {
+      "id": "ff-q2",
+      "prompt": "What do we call a place on the computer used to keep files organized together?",
+      "options": [
+        "A folder",
+        "A file",
+        "A keyboard",
+        "A printer"
+      ],
+      "correctAnswer": "A folder",
+      "hints": {
+        "small": "Think about how you might group similar files together.",
+        "big": "A folder holds files together, just like a real paper folder."
+      },
+      "explanationSteps": [
+        "A folder is used to keep related files organized together.",
+        "So the answer is \"A folder\"."
+      ],
+      "followUpQuestionId": "ff-q1",
+      "visualEmoji": "📁"
+    },
+    {
+      "id": "ff-q3",
+      "prompt": "If you have many drawing files, what is the best way to keep them organized?",
+      "options": [
+        "Put them all in one folder named \"Drawings\"",
+        "Delete the computer",
+        "Leave them scattered everywhere",
+        "Turn off the monitor"
+      ],
+      "correctAnswer": "Put them all in one folder named \"Drawings\"",
+      "hints": {
+        "small": "Think about what folders are used for.",
+        "big": "Grouping similar files into one folder makes them easy to find later."
+      },
+      "explanationSteps": [
+        "Folders help us group similar files together.",
+        "Putting all drawing files in a folder named \"Drawings\" keeps them organized.",
+        "So the answer is to put them all in one folder named \"Drawings\"."
+      ],
+      "followUpQuestionId": "ff-q4",
+      "visualEmoji": "🖼️"
+    },
+    {
+      "id": "ff-q4",
+      "prompt": "Why do we save our work on a computer?",
+      "options": [
+        "So we don't lose it and can open it again later",
+        "So the computer turns off",
+        "So the mouse works faster",
+        "So the screen changes color"
+      ],
+      "correctAnswer": "So we don't lose it and can open it again later",
+      "hints": {
+        "small": "Think about what happens to your work if you don't save it.",
+        "big": "Saving keeps your work stored so you can find and open it again."
+      },
+      "explanationSteps": [
+        "Saving stores your work as a file so it isn't lost.",
+        "You can then open that file again later to keep working on it.",
+        "So the answer is: so we don't lose it and can open it again later."
+      ],
+      "followUpQuestionId": "ff-q3",
+      "visualEmoji": "💾"
+    },
+    {
+      "id": "ff-q5",
+      "prompt": "What is the small picture on the desktop that you double-click to open a program or file called?",
+      "options": [
+        "An icon",
+        "A wire",
+        "A socket",
+        "A cursor"
+      ],
+      "correctAnswer": "An icon",
+      "hints": {
+        "small": "You see these small pictures on the desktop before you open anything.",
+        "big": "Double-clicking one of these small pictures opens a program or file."
+      },
+      "explanationSteps": [
+        "An icon is a small picture that represents a program, file, or folder.",
+        "Double-clicking it opens what it represents.",
+        "So the answer is \"An icon\"."
+      ],
+      "followUpQuestionId": "ff-q6",
+      "visualEmoji": "🖥️"
+    },
+    {
+      "id": "ff-q6",
+      "prompt": "What is the blinking line on the screen that shows where your typing will appear called?",
+      "options": [
+        "The cursor",
+        "The icon",
+        "The folder",
+        "The desktop"
+      ],
+      "correctAnswer": "The cursor",
+      "hints": {
+        "small": "Look for the blinking line when you type in a document.",
+        "big": "This blinking line marks where the next letter you type will appear."
+      },
+      "explanationSteps": [
+        "The cursor is the blinking line that marks where typing will appear.",
+        "So the answer is \"The cursor\"."
+      ],
+      "followUpQuestionId": "ff-q5",
+      "visualEmoji": "✏️"
+    },
+    {
+      "id": "ff-q7",
+      "prompt": "Which of these is most like a real-world folder that holds paper files?",
+      "options": [
+        "A computer folder",
+        "A monitor",
+        "A speaker",
+        "A charger"
+      ],
+      "correctAnswer": "A computer folder",
+      "hints": {
+        "small": "Think about which of these is used to organize and hold things.",
+        "big": "A computer folder works just like a paper folder — it holds files together."
+      },
+      "explanationSteps": [
+        "A real paper folder holds papers together, just like a computer folder holds files together.",
+        "So the answer is \"A computer folder\"."
+      ],
+      "followUpQuestionId": "ff-q8",
+      "visualEmoji": "📁"
+    },
+    {
+      "id": "ff-q8",
+      "prompt": "What should you do before turning off the computer, if you have unsaved work?",
+      "options": [
+        "Save your work first",
+        "Just turn it off immediately",
+        "Unplug the keyboard",
+        "Close your eyes"
+      ],
+      "correctAnswer": "Save your work first",
+      "hints": {
+        "small": "Think about what happens to unsaved work if the computer turns off.",
+        "big": "Saving stores your work as a file so it isn't lost when the computer turns off."
+      },
+      "explanationSteps": [
+        "Unsaved work can be lost when the computer turns off.",
+        "Saving first keeps your work safe as a file.",
+        "So the answer is: save your work first."
+      ],
+      "followUpQuestionId": "ff-q7",
+      "visualEmoji": "💾"
+    }
+  ]
+}

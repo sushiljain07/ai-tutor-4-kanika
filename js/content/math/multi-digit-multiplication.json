@@ -1,0 +1,172 @@
+{
+  "id": "multi-digit-multiplication",
+  "subjectId": "math",
+  "displayName": "Multiplying Bigger Numbers",
+  "sourceReference": "New Mathematics Today - 3",
+  "explanation": {
+    "text": "To multiply a big number by a small number, we multiply one place at a time — ones first, then tens, then hundreds — and carry over extra tens just like in addition.",
+    "example": "213 x 3: multiply the ones (3x3=9), then the tens (1x3=3), then the hundreds (2x3=6). Put them together: 639."
+  },
+  "questions": [
+    {
+      "id": "mdm-q1",
+      "prompt": "What is 213 x 3?",
+      "correctAnswer": "639",
+      "hints": {
+        "small": "Multiply each digit by 3, starting from the ones place.",
+        "big": "Ones: 3x3=9. Tens: 1x3=3. Hundreds: 2x3=6. Put them together."
+      },
+      "explanationSteps": [
+        "Ones place: 3 x 3 = 9.",
+        "Tens place: 1 x 3 = 3.",
+        "Hundreds place: 2 x 3 = 6.",
+        "Put the digits together: 213 x 3 = 639."
+      ],
+      "followUpQuestionId": "mdm-q2"
+    },
+    {
+      "id": "mdm-q2",
+      "prompt": "What is 142 x 4?",
+      "correctAnswer": "568",
+      "hints": {
+        "small": "Multiply each digit by 4, starting from the ones place.",
+        "big": "Ones: 2x4=8. Tens: 4x4=16, write 6 and carry 1. Hundreds: 1x4=4, plus the carried 1 = 5."
+      },
+      "explanationSteps": [
+        "Ones place: 2 x 4 = 8.",
+        "Tens place: 4 x 4 = 16 — write down 6 and carry the 1.",
+        "Hundreds place: 1 x 4 = 4, plus the carried 1 makes 5.",
+        "Put the digits together: 142 x 4 = 568."
+      ],
+      "followUpQuestionId": "mdm-q1"
+    },
+    {
+      "id": "mdm-q3",
+      "prompt": "What is 326 x 2?",
+      "correctAnswer": "652",
+      "hints": {
+        "small": "Multiply each digit by 2, starting from the ones place.",
+        "big": "Ones: 6x2=12, write 2 carry 1. Tens: 2x2=4, plus carried 1 = 5. Hundreds: 3x2=6."
+      },
+      "explanationSteps": [
+        "Ones place: 6 x 2 = 12 — write down 2 and carry the 1.",
+        "Tens place: 2 x 2 = 4, plus the carried 1 makes 5.",
+        "Hundreds place: 3 x 2 = 6.",
+        "Put the digits together: 326 x 2 = 652."
+      ],
+      "followUpQuestionId": "mdm-q4"
+    },
+    {
+      "id": "mdm-q4",
+      "prompt": "What is 154 x 3?",
+      "correctAnswer": "462",
+      "hints": {
+        "small": "Multiply each digit by 3, starting from the ones place, and remember to carry.",
+        "big": "Ones: 4x3=12, write 2 carry 1. Tens: 5x3=15, plus carried 1 =16, write 6 carry 1. Hundreds: 1x3=3, plus carried 1 = 4."
+      },
+      "explanationSteps": [
+        "Ones place: 4 x 3 = 12 — write down 2 and carry the 1.",
+        "Tens place: 5 x 3 = 15, plus the carried 1 makes 16 — write down 6 and carry the 1.",
+        "Hundreds place: 1 x 3 = 3, plus the carried 1 makes 4.",
+        "Put the digits together: 154 x 3 = 462."
+      ],
+      "followUpQuestionId": "mdm-q3"
+    },
+    {
+      "id": "mdm-q5",
+      "prompt": "What is 231 x 4?",
+      "correctAnswer": "924",
+      "hints": {
+        "small": "Multiply each digit by 4, starting from the ones place.",
+        "big": "Ones: 1x4=4. Tens: 3x4=12, write 2 carry 1. Hundreds: 2x4=8, plus carried 1."
+      },
+      "explanationSteps": [
+        "Ones place: 1 x 4 = 4.",
+        "Tens place: 3 x 4 = 12 — write down 2 and carry the 1.",
+        "Hundreds place: 2 x 4 = 8, plus the carried 1 makes 9.",
+        "Put the digits together: 231 x 4 = 924."
+      ],
+      "followUpQuestionId": "mdm-q6"
+    },
+    {
+      "id": "mdm-q6",
+      "prompt": "What is 305 x 3?",
+      "correctAnswer": "915",
+      "hints": {
+        "small": "Multiply each digit by 3, remembering that 0 x 3 = 0.",
+        "big": "Ones: 5x3=15, write 5 carry 1. Tens: 0x3=0, plus carried 1. Hundreds: 3x3=9."
+      },
+      "explanationSteps": [
+        "Ones place: 5 x 3 = 15 — write down 5 and carry the 1.",
+        "Tens place: 0 x 3 = 0, plus the carried 1 makes 1.",
+        "Hundreds place: 3 x 3 = 9.",
+        "Put the digits together: 305 x 3 = 915."
+      ],
+      "followUpQuestionId": "mdm-q5"
+    },
+    {
+      "id": "mdm-q7",
+      "prompt": "What is 412 x 2?",
+      "correctAnswer": "824",
+      "hints": {
+        "small": "Multiply each digit by 2, starting from the ones place.",
+        "big": "Ones: 2x2=4. Tens: 1x2=2. Hundreds: 4x2=8."
+      },
+      "explanationSteps": [
+        "Ones place: 2 x 2 = 4.",
+        "Tens place: 1 x 2 = 2.",
+        "Hundreds place: 4 x 2 = 8.",
+        "Put the digits together: 412 x 2 = 824."
+      ],
+      "followUpQuestionId": "mdm-q8"
+    },
+    {
+      "id": "mdm-q8",
+      "prompt": "What is 263 x 3?",
+      "correctAnswer": "789",
+      "hints": {
+        "small": "Multiply each digit by 3, remembering to carry.",
+        "big": "Ones: 3x3=9. Tens: 6x3=18, write8 carry1. Hundreds: 2x3=6+1=7."
+      },
+      "explanationSteps": [
+        "Ones place: 3 x 3 = 9.",
+        "Tens place: 6 x 3 = 18 — write down 8 and carry the 1.",
+        "Hundreds place: 2 x 3 = 6, plus the carried 1 makes 7.",
+        "Put the digits together: 263 x 3 = 789."
+      ],
+      "followUpQuestionId": "mdm-q7"
+    },
+    {
+      "id": "mdm-q9",
+      "prompt": "What is 174 x 5?",
+      "correctAnswer": "870",
+      "hints": {
+        "small": "Multiply each digit by 5, starting from the ones place, and remember to carry.",
+        "big": "Ones: 4x5=20, write 0 carry 2. Tens: 7x5=35, plus carried 2=37, write 7 carry 3. Hundreds: 1x5=5, plus carried 3=8."
+      },
+      "explanationSteps": [
+        "Ones place: 4 x 5 = 20 — write down 0 and carry the 2.",
+        "Tens place: 7 x 5 = 35, plus the carried 2 makes 37 — write down 7 and carry the 3.",
+        "Hundreds place: 1 x 5 = 5, plus the carried 3 makes 8.",
+        "Put the digits together: 174 x 5 = 870."
+      ],
+      "followUpQuestionId": "mdm-q10"
+    },
+    {
+      "id": "mdm-q10",
+      "prompt": "What is 283 x 3?",
+      "correctAnswer": "849",
+      "hints": {
+        "small": "Multiply each digit by 3, remembering to carry.",
+        "big": "Ones: 3x3=9. Tens: 8x3=24, write 4 carry 2. Hundreds: 2x3=6, plus carried 2=8."
+      },
+      "explanationSteps": [
+        "Ones place: 3 x 3 = 9.",
+        "Tens place: 8 x 3 = 24 — write down 4 and carry the 2.",
+        "Hundreds place: 2 x 3 = 6, plus the carried 2 makes 8.",
+        "Put the digits together: 283 x 3 = 849."
+      ],
+      "followUpQuestionId": "mdm-q9"
+    }
+  ]
+}

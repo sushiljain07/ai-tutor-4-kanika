@@ -1,0 +1,173 @@
+{
+  "id": "parts-of-computer",
+  "subjectId": "computer-studies",
+  "displayName": "Parts of a Computer",
+  "sourceReference": "CompWiz - Class 3",
+  "visual": "computer-diagram",
+  "explanation": {
+    "text": "A computer has different parts that work together. The monitor shows pictures and words, the keyboard lets us type, and the mouse lets us point and click.",
+    "example": "When you type your name, you use the keyboard. When you see it appear, you are looking at the monitor."
+  },
+  "questions": [
+    {
+      "id": "poc-q1",
+      "prompt": "Which part of the computer shows pictures and words on the screen?",
+      "options": [
+        "Keyboard",
+        "Monitor",
+        "Mouse",
+        "Speaker"
+      ],
+      "correctAnswer": "Monitor",
+      "hints": {
+        "small": "This part looks like a TV screen.",
+        "big": "It's the screen we look at, not something we type or click with."
+      },
+      "explanationSteps": [
+        "The monitor is the screen that displays pictures and words.",
+        "We look at the monitor to see what the computer is showing us."
+      ],
+      "followUpQuestionId": "poc-q2"
+    },
+    {
+      "id": "poc-q2",
+      "prompt": "Which part of the computer is the main box that does the 'thinking'?",
+      "options": [
+        "CPU (the computer's brain)",
+        "Monitor",
+        "Keyboard",
+        "Mouse pad"
+      ],
+      "correctAnswer": "CPU (the computer's brain)",
+      "hints": {
+        "small": "Think about what a brain does for our body.",
+        "big": "The CPU processes information, just like a brain processes thoughts."
+      },
+      "explanationSteps": [
+        "The CPU (Central Processing Unit) is often called the computer's brain.",
+        "It processes all the information and instructions."
+      ],
+      "followUpQuestionId": "poc-q1"
+    },
+    {
+      "id": "poc-q3",
+      "prompt": "What do we call the outer case that holds the computer's main parts together?",
+      "options": [
+        "Cabinet",
+        "Monitor",
+        "Speaker",
+        "Charger"
+      ],
+      "correctAnswer": "Cabinet",
+      "hints": {
+        "small": "It's like a protective box for the important parts inside.",
+        "big": "The cabinet (or case) houses the CPU and other main parts."
+      },
+      "explanationSteps": [
+        "The cabinet is the outer case that holds and protects the computer's main parts.",
+        "It keeps the CPU and other components safe inside."
+      ],
+      "followUpQuestionId": "poc-q4"
+    },
+    {
+      "id": "poc-q4",
+      "prompt": "Which of these is an example of computer hardware (a part you can touch)?",
+      "options": [
+        "A keyboard",
+        "A song",
+        "A game you play",
+        "A password"
+      ],
+      "correctAnswer": "A keyboard",
+      "hints": {
+        "small": "Hardware means parts you can physically touch.",
+        "big": "A keyboard is a real, touchable object, unlike a song or a password."
+      },
+      "explanationSteps": [
+        "Hardware means the physical parts of a computer that you can touch.",
+        "A keyboard is hardware because it is a real object."
+      ],
+      "followUpQuestionId": "poc-q3"
+    },
+    {
+      "id": "poc-q5",
+      "prompt": "Which of these is an example of software (something you cannot touch)?",
+      "options": [
+        "A drawing app",
+        "A keyboard",
+        "A mouse",
+        "A monitor"
+      ],
+      "correctAnswer": "A drawing app",
+      "hints": {
+        "small": "Software is a program, not a physical object.",
+        "big": "A drawing app is a program that runs on the computer — you can't touch it."
+      },
+      "explanationSteps": [
+        "Software means programs and instructions, not physical parts.",
+        "A drawing app is software because it's a program, not something you can touch."
+      ],
+      "followUpQuestionId": "poc-q6"
+    },
+    {
+      "id": "poc-q6",
+      "prompt": "What do we call the wires used to connect computer parts together?",
+      "options": [
+        "Cables",
+        "Cabinet",
+        "Monitor",
+        "Software"
+      ],
+      "correctAnswer": "Cables",
+      "hints": {
+        "small": "Think about what connects the keyboard or mouse to the computer.",
+        "big": "Cables carry information and power between different parts."
+      },
+      "explanationSteps": [
+        "Cables are wires that connect computer parts together.",
+        "They help devices like the keyboard or monitor talk to the computer."
+      ],
+      "followUpQuestionId": "poc-q5"
+    },
+    {
+      "id": "poc-q7",
+      "prompt": "What do we call a small, portable computer that opens like a book?",
+      "options": [
+        "Laptop",
+        "Monitor",
+        "Printer",
+        "Cabinet"
+      ],
+      "correctAnswer": "Laptop",
+      "hints": {
+        "small": "You can carry this computer around and it folds shut.",
+        "big": "A laptop has its screen and keyboard built into one folding case."
+      },
+      "explanationSteps": [
+        "A laptop is a portable computer that folds like a book.",
+        "It has the screen, keyboard, and CPU all built into one case."
+      ],
+      "followUpQuestionId": "poc-q8"
+    },
+    {
+      "id": "poc-q8",
+      "prompt": "Which part of the computer stores files so you can open them later, even after turning the computer off?",
+      "options": [
+        "Storage (hard disk)",
+        "Monitor",
+        "Speaker",
+        "Mouse"
+      ],
+      "correctAnswer": "Storage (hard disk)",
+      "hints": {
+        "small": "Think about where your saved files live when the computer is off.",
+        "big": "Storage keeps files saved even without power, unlike some other memory."
+      },
+      "explanationSteps": [
+        "Storage (like a hard disk) keeps files saved even when the computer is turned off.",
+        "This is different from the monitor or speaker, which don't store files."
+      ],
+      "followUpQuestionId": "poc-q7"
+    }
+  ]
+}

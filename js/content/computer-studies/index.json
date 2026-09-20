@@ -1,0 +1,7 @@
+[
+  { "id": "parts-of-computer", "displayName": "Parts of a Computer" },
+  { "id": "io-devices", "displayName": "Input & Output Devices" },
+  { "id": "keyboard-mouse", "displayName": "Keyboard & Mouse Basics" },
+  { "id": "internet-safety", "displayName": "Internet Safety Basics" },
+  { "id": "files-and-folders", "displayName": "Files & Folders" }
+]

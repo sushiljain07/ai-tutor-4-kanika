@@ -1,0 +1,7 @@
+[
+  { "id": "reading-comprehension", "displayName": "Reading Comprehension", "kind": "reading" },
+  { "id": "vocabulary", "displayName": "Vocabulary" },
+  { "id": "grammar", "displayName": "Grammar Basics" },
+  { "id": "sentence-formation", "displayName": "Sentence Formation" },
+  { "id": "tenses", "displayName": "Simple Tenses" }
+]

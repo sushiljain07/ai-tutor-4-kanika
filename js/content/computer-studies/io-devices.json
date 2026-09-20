@@ -1,0 +1,180 @@
+{
+  "id": "io-devices",
+  "subjectId": "computer-studies",
+  "displayName": "Input & Output Devices",
+  "sourceReference": "CompWiz - Class 3",
+  "explanation": {
+    "text": "Input devices let us give information to the computer. Output devices let the computer show information to us.",
+    "example": "A keyboard is an input device (you type into the computer). A monitor is an output device (the computer shows you something)."
+  },
+  "questions": [
+    {
+      "id": "io-q1",
+      "prompt": "Which device helps us type letters into a computer?",
+      "options": [
+        "Keyboard",
+        "Speaker",
+        "Monitor",
+        "Printer"
+      ],
+      "correctAnswer": "Keyboard",
+      "hints": {
+        "small": "This device has keys with letters and numbers on it.",
+        "big": "We press its keys to type words — it's the keyboard."
+      },
+      "explanationSteps": [
+        "The keyboard has keys for letters, numbers, and symbols.",
+        "We press these keys to type into the computer, so it is an input device."
+      ],
+      "followUpQuestionId": "io-q2",
+      "visualEmoji": "⌨️"
+    },
+    {
+      "id": "io-q2",
+      "prompt": "Which of these is an output device?",
+      "options": [
+        "Printer",
+        "Keyboard",
+        "Mouse",
+        "Microphone"
+      ],
+      "correctAnswer": "Printer",
+      "hints": {
+        "small": "An output device gives us something from the computer, not the other way around.",
+        "big": "A printer takes what's on the computer and prints it on paper for us."
+      },
+      "explanationSteps": [
+        "Output devices show or give us information from the computer.",
+        "A printer gives us a paper copy of what's on the computer, so it's an output device."
+      ],
+      "followUpQuestionId": "io-q1",
+      "visualEmoji": "🖨️"
+    },
+    {
+      "id": "io-q3",
+      "prompt": "Which device lets us click and point at things on the screen?",
+      "options": [
+        "Mouse",
+        "Speaker",
+        "Printer",
+        "Scanner"
+      ],
+      "correctAnswer": "Mouse",
+      "hints": {
+        "small": "This device usually has two buttons and a scroll wheel.",
+        "big": "We move it to move the pointer on the screen and click with it."
+      },
+      "explanationSteps": [
+        "The mouse lets us point at things on screen and click them.",
+        "It is an input device because we use it to control the computer."
+      ],
+      "followUpQuestionId": "io-q4",
+      "visualEmoji": "🖱️"
+    },
+    {
+      "id": "io-q4",
+      "prompt": "Which device lets us hear sound from the computer?",
+      "options": [
+        "Speaker",
+        "Keyboard",
+        "Mouse",
+        "Scanner"
+      ],
+      "correctAnswer": "Speaker",
+      "hints": {
+        "small": "This device is used to listen to music or a voice.",
+        "big": "The speaker produces sound so we can hear it — it's an output device."
+      },
+      "explanationSteps": [
+        "The speaker produces sound that we can hear.",
+        "Since it gives us something from the computer, it is an output device."
+      ],
+      "followUpQuestionId": "io-q3",
+      "visualEmoji": "🔊"
+    },
+    {
+      "id": "io-q5",
+      "prompt": "Which device lets us take a photo and put it into the computer?",
+      "options": [
+        "Camera",
+        "Keyboard",
+        "Speaker",
+        "Monitor"
+      ],
+      "correctAnswer": "Camera",
+      "hints": {
+        "small": "This device captures pictures.",
+        "big": "A camera is an input device because it sends pictures into the computer."
+      },
+      "explanationSteps": [
+        "A camera captures images and sends them into the computer.",
+        "Since it gives information to the computer, it is an input device."
+      ],
+      "followUpQuestionId": "io-q6",
+      "visualEmoji": "📷"
+    },
+    {
+      "id": "io-q6",
+      "prompt": "Which device lets us print our work onto paper?",
+      "options": [
+        "Printer",
+        "Mouse",
+        "Microphone",
+        "Keyboard"
+      ],
+      "correctAnswer": "Printer",
+      "hints": {
+        "small": "This device makes a paper copy.",
+        "big": "A printer is an output device because it gives us something from the computer."
+      },
+      "explanationSteps": [
+        "A printer takes what's on the computer and prints it on paper.",
+        "Since it gives us something from the computer, it's an output device."
+      ],
+      "followUpQuestionId": "io-q5",
+      "visualEmoji": "🖨️"
+    },
+    {
+      "id": "io-q7",
+      "prompt": "Which device lets us speak into the computer, like for a voice message?",
+      "options": [
+        "Microphone",
+        "Speaker",
+        "Monitor",
+        "Printer"
+      ],
+      "correctAnswer": "Microphone",
+      "hints": {
+        "small": "This device captures your voice.",
+        "big": "A microphone sends sound INTO the computer, so it's an input device."
+      },
+      "explanationSteps": [
+        "A microphone captures sound, like your voice, and sends it into the computer.",
+        "Since it gives information to the computer, it is an input device."
+      ],
+      "followUpQuestionId": "io-q8",
+      "visualEmoji": "🎙️"
+    },
+    {
+      "id": "io-q8",
+      "prompt": "Which of these is BOTH an input and output device?",
+      "options": [
+        "Touchscreen",
+        "Keyboard",
+        "Printer",
+        "Microphone"
+      ],
+      "correctAnswer": "Touchscreen",
+      "hints": {
+        "small": "This device shows things AND lets you touch it to give commands.",
+        "big": "A touchscreen displays output and also takes input from your taps."
+      },
+      "explanationSteps": [
+        "A touchscreen shows pictures (output) and also senses your taps (input).",
+        "That makes it both an input and an output device."
+      ],
+      "followUpQuestionId": "io-q7",
+      "visualEmoji": "📱"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": "reading-comprehension",
+  "subjectId": "english",
+  "displayName": "Reading Comprehension",
+  "sourceReference": "Gul Mohar - Language for Life Reader 3",
+  "explanation": {
+    "text": "Reading a story carefully helps us understand what happened and why. After reading, we answer a few questions about the story.",
+    "example": "Try tapping 'Read aloud' to hear the story, then answer the questions that follow."
+  },
+  "passages": [
+    {
+      "id": "rc-p1",
+      "text": "Meera woke up early on Sunday. She and her father went to visit her grandmother's farm. The hens were clucking near the gate, and a calf ran across the field. Meera fed the hens some grain and watched the calf drink water from a bucket. Before leaving, she picked a basket of fresh guavas to take home.",
+      "comprehensionQuestionIds": [
+        "rc-q1",
+        "rc-q2"
+      ],
+      "title": "A Trip to the Farm",
+      "emoji": "\ud83c\udf3e"
+    },
+    {
+      "id": "rc-p2",
+      "text": "Every evening, Arjun helps his mother in the kitchen. On Tuesday, he washed the vegetables while his mother chopped them. Then he set the table with plates and spoons for dinner. His mother smiled and said his help made cooking much faster. Arjun felt proud of himself.",
+      "comprehensionQuestionIds": [
+        "rc-q3",
+        "rc-q4"
+      ],
+      "title": "Helping in the Kitchen",
+      "emoji": "\ud83c\udf7d\ufe0f"
+    },
+    {
+      "id": "rc-p3",
+      "text": "It rained heavily all afternoon, so Priya could not play outside. She took out her box of board games and asked her brother to join her. They played snakes and ladders twice, and Priya won both games. When the rain stopped, they saw a bright rainbow across the sky and ran out to look at it.",
+      "comprehensionQuestionIds": [
+        "rc-q5",
+        "rc-q6"
+      ],
+      "title": "A Rainy Day",
+      "emoji": "\u2614"
+    },
+    {
+      "id": "rc-p4",
+      "text": "Every January, Rohan's family flies kites from their rooftop to celebrate the kite festival. This year, Rohan chose a bright yellow kite shaped like a bird. His grandfather showed him how to hold the string and let it out slowly. By evening, Rohan's kite was flying higher than all the others on the street.",
+      "comprehensionQuestionIds": [
+        "rc-q7",
+        "rc-q8"
+      ],
+      "title": "The Kite Festival",
+      "emoji": "\ud83e\ude81"
+    },
+    {
+      "id": "rc-p5",
+      "text": "On Saturday, Class 3 went on a school trip to the zoo. The children saw a sleepy lion, a family of monkeys swinging in the trees, and a peacock spreading its colourful feathers. Their teacher reminded everyone not to feed the animals. Ishaan liked the elephants best because they sprayed water with their trunks.",
+      "comprehensionQuestionIds": [
+        "rc-q9",
+        "rc-q10"
+      ],
+      "title": "A Day at the Zoo",
+      "emoji": "\ud83e\udd81"
+    }
+  ],
+  "questions": [
+    {
+      "id": "rc-q1",
+      "prompt": "Where did Meera and her father go on Sunday?",
+      "options": [
+        "To the market",
+        "To her grandmother's farm",
+        "To school",
+        "To the beach"
+      ],
+      "correctAnswer": "To her grandmother's farm",
+      "hints": {
+        "small": "Read the second sentence of the story again.",
+        "big": "The story says they went to visit someone's farm \u2014 whose farm was it?"
+      },
+      "explanationSteps": [
+        "The story says: \"She and her father went to visit her grandmother's farm.\"",
+        "So they went to her grandmother's farm."
+      ],
+      "followUpQuestionId": "rc-q2"
+    },
+    {
+      "id": "rc-q2",
+      "prompt": "What did Meera pick before leaving the farm?",
+      "options": [
+        "Flowers",
+        "Grain",
+        "Guavas",
+        "Water"
+      ],
+      "correctAnswer": "Guavas",
+      "hints": {
+        "small": "It was something to eat, and it's mentioned in the very last sentence.",
+        "big": "The story says she picked a basket of fresh ___ to take home."
+      },
+      "explanationSteps": [
+        "The last sentence says: \"she picked a basket of fresh guavas to take home.\"",
+        "So the answer is guavas."
+      ],
+      "followUpQuestionId": "rc-q1"
+    },
+    {
+      "id": "rc-q3",
+      "prompt": "What did Arjun do while his mother chopped the vegetables?",
+      "options": [
+        "He washed them",
+        "He cooked them",
+        "He ate them",
+        "He watered them"
+      ],
+      "correctAnswer": "He washed them",
+      "hints": {
+        "small": "Read the second sentence again.",
+        "big": "The story says: \"he washed the vegetables while his mother chopped them.\""
+      },
+      "explanationSteps": [
+        "The story says Arjun washed the vegetables while his mother chopped them.",
+        "So Arjun's job was washing them."
+      ],
+      "followUpQuestionId": "rc-q4"
+    },
+    {
+      "id": "rc-q4",
+      "prompt": "How did Arjun feel at the end of the story?",
+      "options": [
+        "Tired",
+        "Proud",
+        "Sad",
+        "Hungry"
+      ],
+      "correctAnswer": "Proud",
+      "hints": {
+        "small": "Look at the very last sentence of the story.",
+        "big": "The story ends: \"Arjun felt ___ of himself.\""
+      },
+      "explanationSteps": [
+        "The last sentence says: \"Arjun felt proud of himself.\"",
+        "So the answer is proud."
+      ],
+      "followUpQuestionId": "rc-q3"
+    },
+    {
+      "id": "rc-q5",
+      "prompt": "Why couldn't Priya play outside?",
+      "options": [
+        "It was too hot",
+        "It rained heavily",
+        "She was tired",
+        "It was too late"
+      ],
+      "correctAnswer": "It rained heavily",
+      "hints": {
+        "small": "Look at the very first sentence of the story.",
+        "big": "The story says it rained heavily all afternoon \u2014 that kept her inside."
+      },
+      "explanationSteps": [
+        "The story begins: \"It rained heavily all afternoon, so Priya could not play outside.\"",
+        "So the rain is why she stayed inside."
+      ],
+      "followUpQuestionId": "rc-q6"
+    },
+    {
+      "id": "rc-q6",
+      "prompt": "What did Priya and her brother see after the rain stopped?",
+      "options": [
+        "A rainbow",
+        "A kite",
+        "An elephant",
+        "A peacock"
+      ],
+      "correctAnswer": "A rainbow",
+      "hints": {
+        "small": "Look at the last sentence of the story.",
+        "big": "The story says they saw something colourful in the sky and ran to look at it."
+      },
+      "explanationSteps": [
+        "The last sentence says: \"they saw a bright rainbow across the sky.\"",
+        "So the answer is a rainbow."
+      ],
+      "followUpQuestionId": "rc-q5"
+    },
+    {
+      "id": "rc-q7",
+      "prompt": "What festival does Rohan's family celebrate by flying kites?",
+      "options": [
+        "A birthday",
+        "The kite festival",
+        "A wedding",
+        "Sports day"
+      ],
+      "correctAnswer": "The kite festival",
+      "hints": {
+        "small": "Read the first sentence of the story again.",
+        "big": "The story says every January they fly kites to celebrate a certain festival."
+      },
+      "explanationSteps": [
+        "The story says: \"Every January, Rohan's family flies kites... to celebrate the kite festival.\"",
+        "So the answer is the kite festival."
+      ],
+      "followUpQuestionId": "rc-q8"
+    },
+    {
+      "id": "rc-q8",
+      "prompt": "Who showed Rohan how to hold the kite string?",
+      "options": [
+        "His teacher",
+        "His grandfather",
+        "His friend",
+        "His sister"
+      ],
+      "correctAnswer": "His grandfather",
+      "hints": {
+        "small": "Look for the family member mentioned in the middle of the story.",
+        "big": "The story says his grandfather showed him how to hold the string."
+      },
+      "explanationSteps": [
+        "The story says: \"His grandfather showed him how to hold the string and let it out slowly.\"",
+        "So the answer is his grandfather."
+      ],
+      "followUpQuestionId": "rc-q7"
+    },
+    {
+      "id": "rc-q9",
+      "prompt": "Where did Class 3 go on their school trip?",
+      "options": [
+        "The zoo",
+        "The farm",
+        "The beach",
+        "The museum"
+      ],
+      "correctAnswer": "The zoo",
+      "hints": {
+        "small": "Read the first sentence of the story again.",
+        "big": "The story says Class 3 went on a school trip to a place with animals."
+      },
+      "explanationSteps": [
+        "The story says: \"Class 3 went on a school trip to the zoo.\"",
+        "So the answer is the zoo."
+      ],
+      "followUpQuestionId": "rc-q10"
+    },
+    {
+      "id": "rc-q10",
+      "prompt": "Why did Ishaan like the elephants best?",
+      "options": [
+        "They sprayed water with their trunks",
+        "They were sleeping",
+        "They had colourful feathers",
+        "They were swinging in the trees"
+      ],
+      "correctAnswer": "They sprayed water with their trunks",
+      "hints": {
+        "small": "Look at the very last sentence of the story.",
+        "big": "The story says Ishaan liked the elephants because of something they did with their trunks."
+      },
+      "explanationSteps": [
+        "The last sentence says: \"Ishaan liked the elephants best because they sprayed water with their trunks.\"",
+        "So that is why he liked them best."
+      ],
+      "followUpQuestionId": "rc-q9"
+    }
+  ]
+}

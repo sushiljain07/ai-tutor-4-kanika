@@ -1,0 +1,9 @@
+[
+  { "id": "addition-subtraction", "displayName": "Addition & Subtraction" },
+  { "id": "place-value", "displayName": "Place Value" },
+  { "id": "multiplication-tables", "displayName": "Multiplication Tables (1-20)", "kind": "multiplication-drill" },
+  { "id": "multi-digit-multiplication", "displayName": "Multiplying Bigger Numbers" },
+  { "id": "division", "displayName": "Division" },
+  { "id": "word-problems", "displayName": "Simple Word Problems" },
+  { "id": "money", "displayName": "Money (Rupees)" }
+]

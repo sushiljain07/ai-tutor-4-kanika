@@ -1,0 +1,164 @@
+{
+  "id": "money",
+  "subjectId": "math",
+  "displayName": "Money (Rupees)",
+  "sourceReference": "New Mathematics Today - 3",
+  "explanation": {
+    "text": "We use rupee (₹) notes and coins to buy things. To find a total, we add the amounts. To find change, we subtract what was spent from what we started with.",
+    "example": "If you have a ₹10 note and a ₹5 note, you have ₹10 + ₹5 = ₹15 in all."
+  },
+  "questions": [
+    {
+      "id": "m-q1",
+      "prompt": "You have a ₹10 note and a ₹5 note. How much money do you have in all?",
+      "skillTag": "operation-identification",
+      "options": [
+        "10",
+        "5",
+        "15",
+        "50"
+      ],
+      "correctAnswer": "15",
+      "hints": {
+        "small": "Putting notes together means adding their values.",
+        "big": "₹10 + ₹5 = ?"
+      },
+      "explanationSteps": [
+        "Having both notes together means we add their values.",
+        "₹10 + ₹5 = ₹15.",
+        "You have ₹15 in all."
+      ],
+      "followUpQuestionId": "m-q2",
+      "visualEmoji": "💵"
+    },
+    {
+      "id": "m-q2",
+      "prompt": "Amit has ₹20 in coins. He spends ₹8 on a pencil box. How much money does he have left?",
+      "skillTag": "operation-identification",
+      "correctAnswer": "12",
+      "hints": {
+        "small": "\"Spends\" means the money goes away — which operation makes an amount smaller?",
+        "big": "Spending means subtraction: ₹20 - ₹8."
+      },
+      "explanationSteps": [
+        "\"Spends\" means money is taken away, so we subtract.",
+        "₹20 - ₹8 = ₹12.",
+        "Amit has ₹12 left."
+      ],
+      "followUpQuestionId": "m-q1",
+      "visualEmoji": "🪙"
+    },
+    {
+      "id": "m-q3",
+      "prompt": "Which is more money: three ₹10 notes or one ₹50 note?",
+      "skillTag": "computation",
+      "options": [
+        "Three ₹10 notes",
+        "One ₹50 note",
+        "They are equal"
+      ],
+      "correctAnswer": "One ₹50 note",
+      "hints": {
+        "small": "First find the total value of the three ₹10 notes.",
+        "big": "Three ₹10 notes = ₹10 + ₹10 + ₹10 = ₹30. Compare ₹30 with ₹50."
+      },
+      "explanationSteps": [
+        "Three ₹10 notes = ₹10 + ₹10 + ₹10 = ₹30.",
+        "₹30 is less than ₹50.",
+        "So one ₹50 note is more money."
+      ],
+      "followUpQuestionId": "m-q4",
+      "visualEmoji": "💰"
+    },
+    {
+      "id": "m-q4",
+      "prompt": "Which is more money: four ₹5 coins or two ₹10 coins?",
+      "skillTag": "computation",
+      "options": [
+        "Four ₹5 coins",
+        "Two ₹10 coins",
+        "They are equal"
+      ],
+      "correctAnswer": "They are equal",
+      "hints": {
+        "small": "Find the total value of each group of coins.",
+        "big": "Four ₹5 coins = ₹5 + ₹5 + ₹5 + ₹5 = ₹20. Two ₹10 coins = ₹10 + ₹10 = ₹20."
+      },
+      "explanationSteps": [
+        "Four ₹5 coins = 4 x ₹5 = ₹20.",
+        "Two ₹10 coins = 2 x ₹10 = ₹20.",
+        "Both groups equal ₹20, so they are equal."
+      ],
+      "followUpQuestionId": "m-q3",
+      "visualEmoji": "🪙"
+    },
+    {
+      "id": "m-q5",
+      "prompt": "Riya buys a notebook for ₹35 and a pen for ₹12. How much did she spend in all?",
+      "skillTag": "operation-identification",
+      "correctAnswer": "47",
+      "hints": {
+        "small": "Buying two things together means adding their costs.",
+        "big": "₹35 + ₹12 = ?"
+      },
+      "explanationSteps": [
+        "Buying both items means we add their prices.",
+        "₹35 + ₹12 = ₹47.",
+        "Riya spent ₹47 in all."
+      ],
+      "followUpQuestionId": "m-q6",
+      "visualEmoji": "📓"
+    },
+    {
+      "id": "m-q6",
+      "prompt": "Karan had ₹100. He bought a toy for ₹65. How much money does he have left?",
+      "skillTag": "operation-identification",
+      "correctAnswer": "35",
+      "hints": {
+        "small": "\"Left\" means what remains after spending — which operation is that?",
+        "big": "Spending means subtraction: ₹100 - ₹65."
+      },
+      "explanationSteps": [
+        "Finding what's left after spending means we subtract.",
+        "₹100 - ₹65 = ₹35.",
+        "Karan has ₹35 left."
+      ],
+      "followUpQuestionId": "m-q5",
+      "visualEmoji": "🧸"
+    },
+    {
+      "id": "m-q7",
+      "prompt": "A chocolate costs ₹8. How much will 6 chocolates cost?",
+      "skillTag": "computation",
+      "correctAnswer": "48",
+      "hints": {
+        "small": "Buying equal amounts of the same item is a multiplication story.",
+        "big": "6 chocolates at ₹8 each: 6 x 8."
+      },
+      "explanationSteps": [
+        "6 chocolates at the same price means 6 x 8.",
+        "6 x 8 = 48.",
+        "6 chocolates cost ₹48."
+      ],
+      "followUpQuestionId": "m-q8",
+      "visualEmoji": "🍫"
+    },
+    {
+      "id": "m-q8",
+      "prompt": "Balloons cost ₹12 each. What is the total cost of 4 balloons?",
+      "skillTag": "computation",
+      "correctAnswer": "48",
+      "hints": {
+        "small": "Equal-priced balloons is a multiplication story.",
+        "big": "4 balloons at ₹12 each: 4 x 12."
+      },
+      "explanationSteps": [
+        "4 balloons at the same price means 4 x 12.",
+        "4 x 12 = 48.",
+        "The total cost is ₹48."
+      ],
+      "followUpQuestionId": "m-q7",
+      "visualEmoji": "🎈"
+    }
+  ]
+}

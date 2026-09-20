@@ -1,0 +1,5 @@
+[
+  { "id": "math", "displayName": "Math" },
+  { "id": "english", "displayName": "English" },
+  { "id": "computer-studies", "displayName": "Computer Studies" }
+]

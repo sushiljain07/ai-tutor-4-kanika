@@ -1,0 +1,228 @@
+{
+  "id": "word-problems",
+  "subjectId": "math",
+  "displayName": "Simple Word Problems",
+  "sourceReference": "New Mathematics Today - 3",
+  "explanation": {
+    "text": "Word problems tell a little story with numbers. The first job is figuring out which operation to use — add, subtract, multiply, or divide. Then we do the math carefully.",
+    "example": "There are 4 baskets. Each basket has 6 apples. How many apples in all? This is a multiplication story: 4 x 6 = 24."
+  },
+  "questions": [
+    {
+      "id": "wp-q1",
+      "prompt": "There are 4 baskets with 6 apples each. How many apples are there in all?",
+      "skillTag": "operation-identification",
+      "options": [
+        "10",
+        "24",
+        "46",
+        "4"
+      ],
+      "correctAnswer": "24",
+      "hints": {
+        "small": "Each basket has the same number of apples — what operation combines equal groups?",
+        "big": "4 groups of 6 means multiplication: 4 x 6."
+      },
+      "explanationSteps": [
+        "\"Each basket has 6\" and there are 4 baskets — that's equal groups, so we multiply.",
+        "4 x 6 = 24.",
+        "There are 24 apples in all."
+      ],
+      "followUpQuestionId": "wp-q2",
+      "visualEmoji": "🧺🍎"
+    },
+    {
+      "id": "wp-q2",
+      "prompt": "Riya had 15 candies. She gave 6 to her friend. How many candies does she have now?",
+      "skillTag": "operation-identification",
+      "options": [
+        "21",
+        "9",
+        "6",
+        "15"
+      ],
+      "correctAnswer": "9",
+      "hints": {
+        "small": "\"Gave away\" means she has fewer now — which operation makes a number smaller?",
+        "big": "Giving away means subtraction: 15 - 6."
+      },
+      "explanationSteps": [
+        "\"Gave away\" means we take away, so we subtract.",
+        "15 - 6 = 9.",
+        "Riya has 9 candies left."
+      ],
+      "followUpQuestionId": "wp-q1",
+      "visualEmoji": "🍬"
+    },
+    {
+      "id": "wp-q3",
+      "prompt": "A box has 8 rows of 7 pencils each. How many pencils are in the box?",
+      "skillTag": "computation",
+      "correctAnswer": "56",
+      "hints": {
+        "small": "This is a multiplication story: 8 rows of 7.",
+        "big": "Build up: 8 x 5 = 40, 8 x 2 = 16, so 8 x 7 = 40 + 16."
+      },
+      "explanationSteps": [
+        "8 rows of 7 means 8 x 7.",
+        "8 x 5 = 40 and 8 x 2 = 16, so 8 x 7 = 40 + 16 = 56.",
+        "There are 56 pencils in the box."
+      ],
+      "followUpQuestionId": "wp-q4",
+      "visualEmoji": "✏️"
+    },
+    {
+      "id": "wp-q4",
+      "prompt": "There are 45 mangoes to be packed equally into 9 baskets. How many mangoes go in each basket?",
+      "skillTag": "computation",
+      "correctAnswer": "5",
+      "hints": {
+        "small": "Sharing equally into baskets means dividing.",
+        "big": "45 ÷ 9: think 9 x ? = 45."
+      },
+      "explanationSteps": [
+        "Sharing equally means division: 45 ÷ 9.",
+        "9 x 5 = 45, so 45 ÷ 9 = 5.",
+        "Each basket gets 5 mangoes."
+      ],
+      "followUpQuestionId": "wp-q3",
+      "visualEmoji": "🥭"
+    },
+    {
+      "id": "wp-q5",
+      "prompt": "A farmer picked 54 mangoes and packed them equally into 6 baskets. How many mangoes are in each basket?",
+      "skillTag": "operation-identification",
+      "correctAnswer": "9",
+      "hints": {
+        "small": "\"Packed equally into baskets\" means sharing — which operation is that?",
+        "big": "Sharing equally means division: 54 ÷ 6."
+      },
+      "explanationSteps": [
+        "\"Packed equally\" is a sharing story, so we divide: 54 ÷ 6.",
+        "6 x 9 = 54, so 54 ÷ 6 = 9.",
+        "There are 9 mangoes in each basket."
+      ],
+      "followUpQuestionId": "wp-q6",
+      "visualEmoji": "🥭"
+    },
+    {
+      "id": "wp-q6",
+      "prompt": "Neha bought 7 packets of pencils with 6 pencils in each packet. How many pencils does she have altogether?",
+      "skillTag": "computation",
+      "correctAnswer": "42",
+      "hints": {
+        "small": "Equal packets of pencils means multiplication: 7 x 6.",
+        "big": "Build up: 7 x 5 = 35, plus one more 7 = 35 + 7."
+      },
+      "explanationSteps": [
+        "7 packets of 6 pencils each means 7 x 6.",
+        "7 x 5 = 35, and one more 7 makes 35 + 7 = 42.",
+        "Neha has 42 pencils altogether."
+      ],
+      "followUpQuestionId": "wp-q5",
+      "visualEmoji": "✏️"
+    },
+    {
+      "id": "wp-q7",
+      "prompt": "Ravi saved 8 rupees every day for 6 days. How much money did he save in all?",
+      "skillTag": "operation-identification",
+      "correctAnswer": "48",
+      "hints": {
+        "small": "Saving the same amount each day for several days is an equal-groups story — what operation is that?",
+        "big": "Equal groups mean multiplication: 8 x 6."
+      },
+      "explanationSteps": [
+        "\"Every day\" for 6 days at the same amount means equal groups, so we multiply.",
+        "8 x 6 = 48.",
+        "Ravi saved 48 rupees in all."
+      ],
+      "followUpQuestionId": "wp-q8",
+      "visualEmoji": "💰"
+    },
+    {
+      "id": "wp-q8",
+      "prompt": "A baker made 96 cookies and packed them into boxes of 8. How many boxes did she fill?",
+      "skillTag": "computation",
+      "correctAnswer": "12",
+      "hints": {
+        "small": "Packing into equal-sized boxes means division: 96 ÷ 8.",
+        "big": "Think: 8 x ? = 96. Try building up: 8x10=80, 8x12=96."
+      },
+      "explanationSteps": [
+        "Packing 96 cookies into boxes of 8 means 96 ÷ 8.",
+        "8 x 12 = 96, so 96 ÷ 8 = 12.",
+        "She filled 12 boxes."
+      ],
+      "followUpQuestionId": "wp-q7",
+      "visualEmoji": "🍪"
+    },
+    {
+      "id": "wp-q9",
+      "prompt": "Meera had 23 marbles. Her brother gave her 18 more. How many marbles does she have now?",
+      "skillTag": "operation-identification",
+      "correctAnswer": "41",
+      "hints": {
+        "small": "\"Gave her more\" means she has more now — which operation makes a number bigger?",
+        "big": "Getting more means addition: 23 + 18."
+      },
+      "explanationSteps": [
+        "\"Gave her more\" means we add.",
+        "23 + 18 = 41.",
+        "Meera has 41 marbles now."
+      ],
+      "followUpQuestionId": "wp-q10",
+      "visualEmoji": "🔵"
+    },
+    {
+      "id": "wp-q10",
+      "prompt": "A school had 85 students. 27 students went on a school trip. How many students stayed back?",
+      "skillTag": "operation-identification",
+      "correctAnswer": "58",
+      "hints": {
+        "small": "\"Went away\" means fewer are left — which operation makes a number smaller?",
+        "big": "Students leaving means subtraction: 85 - 27."
+      },
+      "explanationSteps": [
+        "\"Went on a trip\" means those students are taken away, so we subtract.",
+        "85 - 27 = 58.",
+        "58 students stayed back."
+      ],
+      "followUpQuestionId": "wp-q9",
+      "visualEmoji": "🏫"
+    },
+    {
+      "id": "wp-q11",
+      "prompt": "There are 6 shelves in a library, each holding 9 books. How many books are there in all?",
+      "skillTag": "computation",
+      "correctAnswer": "54",
+      "hints": {
+        "small": "Equal shelves of books is a multiplication story: 6 x 9.",
+        "big": "Build up: 6 x 9 = 6 x 10 - 6."
+      },
+      "explanationSteps": [
+        "6 shelves of 9 books each means 6 x 9.",
+        "6 x 10 = 60, and 60 - 6 = 54.",
+        "There are 54 books in all."
+      ],
+      "followUpQuestionId": "wp-q12",
+      "visualEmoji": "📚"
+    },
+    {
+      "id": "wp-q12",
+      "prompt": "72 laddoos are packed equally into 8 boxes. How many laddoos go in each box?",
+      "skillTag": "computation",
+      "correctAnswer": "9",
+      "hints": {
+        "small": "Packing equally into boxes means dividing: 72 ÷ 8.",
+        "big": "Think: 8 x ? = 72."
+      },
+      "explanationSteps": [
+        "Packing 72 laddoos equally into 8 boxes means 72 ÷ 8.",
+        "8 x 9 = 72, so 72 ÷ 8 = 9.",
+        "Each box gets 9 laddoos."
+      ],
+      "followUpQuestionId": "wp-q11",
+      "visualEmoji": "🍬"
+    }
+  ]
+}

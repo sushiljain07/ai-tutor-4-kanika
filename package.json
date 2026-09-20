@@ -1,0 +1,13 @@
+{
+  "name": "kanika-foundational-tutor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/unit",
+    "test:e2e": "playwright test",
+    "dev": "npx serve ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
